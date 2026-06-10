@@ -298,7 +298,7 @@ func _build_furniture() -> void:
 	# If furniture sprites are already placed in the scene, just grab references
 	var has_manual := false
 	for child in get_children():
-		if child is Sprite2D and str(child.name) in ["tv_cabinet", "coffee_table", "side_table"]:
+		if child is Sprite2D and str(child.name) in ["tv_cabinet", "coffee_table", "side_table", "sofa_chair"]:
 			has_manual = true
 			move_child(child, get_child_count() - 1)
 			if child.name == "tv_cabinet":
@@ -320,7 +320,7 @@ func _build_furniture() -> void:
 	if has_manual:
 		# Furniture sprites already placed in scene — register colliders for them
 		for child in get_children():
-			if child is Sprite2D and str(child.name) in ["tv_cabinet", "coffee_table", "side_table"]:
+			if child is Sprite2D and str(child.name) in ["tv_cabinet", "coffee_table", "side_table", "sofa_chair"]:
 				child.z_index = 0  # 恢复默认图层
 				if child.texture != null:
 					_register_furniture_collider(
@@ -430,7 +430,7 @@ func _build_hotspots() -> void:
 					sprite.texture = tex
 					sprite.centered = true
 					child.add_child(sprite)
-			elif hotspot_id != "drawer":
+			elif hotspot_id != "drawer" and hotspot_id != "old_tv":
 				var col_shape := child.get_node_or_null("CollisionShape2D") as CollisionShape2D
 				if col_shape != null and col_shape.shape is RectangleShape2D:
 					var rect_size := (col_shape.shape as RectangleShape2D).size
@@ -499,7 +499,7 @@ func _create_hotspot(inter: Dictionary) -> void:
 			sprite.centered = true
 			sprite.position = Vector2.ZERO
 			area.add_child(sprite)
-	if area.get_node_or_null("Visual") == null and id != "drawer":
+	if area.get_node_or_null("Visual") == null and id != "drawer" and id != "old_tv":
 		var visual := ColorRect.new()
 		visual.name = "Visual"
 		visual.color = Color(0.5, 0.65, 0.85, 0.45)
@@ -788,8 +788,12 @@ func _register_furniture_collider(fname: String, pos: Vector2, size: Vector2, sc
 			adj_pos.x -= 5.0
 			adj_size.x -= 20.0  # 原 -30 + 10 = -20
 			adj_size.y -= 35.0
-
-	# 所有物品纵轴碰撞缩短至原来的 2/3（即缩短 1/3）
+		"sofa_chair":
+			adj_pos.x -= 58.0
+			adj_pos.y -= 20.0
+			adj_size.x *= 2.0 / 3.0
+			adj_size.x += 30.0
+			adj_size.y += 20.0 - 18.0
 	adj_size.y *= 2.0 / 3.0
 
 	var rect := Rect2(adj_pos, adj_size)

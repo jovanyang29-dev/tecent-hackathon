@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dk8ptth5l43pw"
-path="res://.godot/imported/老电视机.png-a446a8642bb67738adaa4e9f8ea52f53.ctex"
+uid="uid://cmifsog8fmss3"
+path="res://.godot/imported/电视机.png-6042640a89d8e6014c52b994c4e8abc8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/老电视机.png"
-dest_files=["res://.godot/imported/老电视机.png-a446a8642bb67738adaa4e9f8ea52f53.ctex"]
+source_file="res://assets/sprites/电视机.png"
+dest_files=["res://.godot/imported/电视机.png-6042640a89d8e6014c52b994c4e8abc8.ctex"]
 
 [params]
 

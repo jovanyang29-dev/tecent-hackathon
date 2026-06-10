@@ -3,7 +3,8 @@
 [ext_resource type="Script" uid="uid://d4gtd0ywtiy3d" path="res://scripts/rooms/RoomBase.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://cocor1fvpyg1w" path="res://assets/sprites/电视机柜.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cs2hr4w2swncq" path="res://assets/sprites/茶几.png" id="3"]
-[ext_resource type="Texture2D" path="res://assets/sprites/老电视机.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/sprites/电视机.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/sprites/沙发椅.png" id="5"]
 
 [sub_resource type="Image" id="Image_b8dow"]
 data = {
@@ -18,7 +19,7 @@ data = {
 image = SubResource("Image_b8dow")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_old_tv"]
-size = Vector2(180, 24)
+size = Vector2(60, 48)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_family_photo"]
 size = Vector2(48, 6)
@@ -60,8 +61,13 @@ position = Vector2(270, -160)
 scale = Vector2(0.7, 0.7)
 texture = SubResource("ImageTexture_f1mxx")
 
+
+[node name="sofa_chair" type="Sprite2D" parent="."]
+position = Vector2(5, -50)
+texture = ExtResource("5")
+
 [node name="Hotspot_old_tv" type="Area2D" parent="." unique_id=1388626917]
-position = Vector2(0, -199.5)
+position = Vector2(-15, -185)
 metadata/interaction = {}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspot_old_tv" unique_id=190301598]
