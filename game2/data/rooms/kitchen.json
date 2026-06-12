@@ -6,8 +6,10 @@
   "floor_alt": [0.78, 0.76, 0.72],
   "floor_line": [0.58, 0.56, 0.52],
   "furniture": [
-	{"name": "refrigerator", "pos": [0, 1, -3.7], "size": [1, 1, 1]},
-	{"name": "stove", "pos": [-1.5, 1, -3.7], "size": [1, 1, 1]}
+    {"name": "refrigerator", "pos": [0.33, 1, -4.43], "size": [1, 1, 1]},
+    {"name": "stove", "pos": [-0.5, 1, -4.29], "size": [1, 1, 1]},
+    {"name": "food_soup", "pos": [-0.67, 1, -4.59], "size": [0.5, 0.1, 0.5]},
+    {"name": "food_egg", "pos": [-0.3, 1, -4.66], "size": [0.5, 0.1, 0.5]}
   ],
   "interactions": []
 }

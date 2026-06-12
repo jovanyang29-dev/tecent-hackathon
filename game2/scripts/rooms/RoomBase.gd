@@ -409,6 +409,16 @@ func _build_furniture() -> void:
 			var img: Image = Image.load_from_file("res://assets/sprites/冰箱.png")
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
+		# Food soup on stove
+		elif fname == "food_soup":
+			var img: Image = Image.load_from_file("res://assets/sprites/food_top.png")
+			if img != null:
+				tex = ImageTexture.create_from_image(img)
+		# Food fried egg on stove
+		elif fname == "food_egg":
+			var img: Image = Image.load_from_file("res://assets/sprites/food_bottom.png")
+			if img != null:
+				tex = ImageTexture.create_from_image(img)
 		# Side table: Furn1 tiles (11,0) + (11,1) = 1w×2h
 		elif fname == "side_table":
 			var sheet := _load_sheet("res://assets/sprites/TopDownHouse_FurnitureState1.png")
@@ -429,6 +439,13 @@ func _build_furniture() -> void:
 			elif fname == "stove" or fname == "refrigerator":
 				sprite.scale = Vector2(0.25, 0.25)
 				sprite.z_index = 5  # 厨房：厨具在上方墙之上、角色之下
+			elif fname == "food_soup":
+				sprite.scale = Vector2(0.5, 0.5)
+				sprite.z_index = 8
+			elif fname == "food_egg":
+				sprite.scale = Vector2(0.5, 0.5)
+				sprite.z_index = 8
+				sprite.flip_h = true
 			sprite.position = pos_2d + offset
 			add_child(sprite)
 			if fname == "tv_cabinet":
