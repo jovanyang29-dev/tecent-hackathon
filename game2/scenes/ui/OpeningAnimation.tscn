@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://jtyqajnrxurw"]
+
+[ext_resource type="Script" path="res://scripts/ui/OpeningAnimation.gd" id="1"]
+
+[node name="OpeningAnimation" type="CanvasLayer"]
+script = ExtResource("1")

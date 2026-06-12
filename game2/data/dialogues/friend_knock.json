@@ -1,0 +1,40 @@
+{
+  "id": "friend_knock",
+  "lines": [
+	{
+	  "speaker": "旁白",
+	  "text": "门外传来一阵急跑声，接着是砰砰砰的拍门。"
+	},
+	{
+	  "speaker": "好友",
+	  "text": "小辉——！出来踢球！我们在楼下等你呢，快点！"
+	},
+	{
+	  "speaker": "好友",
+	  "text": "磨蹭啥呢？再不出来天都黑了！"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "你想起来了。上一次——在真正属于2008年的那个6月15日——你就是这么跑了出去。"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "奶奶在身后说了句什么，你没听清。你头也没回。推开门就冲下了楼。"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "后来你吃了很多顿饺子，可再也没吃过奶奶包的。"
+	},
+	{
+	  "speaker": "我",
+	  "text": "（这一次……我不会再跑了。）"
+	}
+  ],
+  "choice": {
+	"prompt": "门外是朋友催促的声音，身后是奶奶切菜的声音。你听到了两个声音——",
+	"options": [
+	  {"text": "和奶奶一起包饺子", "flag": "chose_grandma", "next_dialogue": "res://data/dialogues/choice_grandma.json"},
+	  {"text": "和朋友出去踢球", "flag": "chose_friend", "next_dialogue": "res://data/dialogues/choice_friend_regret.json"}
+	]
+  }
+}

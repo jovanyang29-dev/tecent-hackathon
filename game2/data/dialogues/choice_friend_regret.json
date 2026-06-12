@@ -1,0 +1,48 @@
+{
+  "id": "choice_friend_regret",
+  "lines": [
+	{
+	  "speaker": "我",
+	  "text": "来了来了！等我一下！"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "你推开门，跑了出去。一整个下午都在楼下的空地上踢球，直到天擦黑才回家。"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "推开家门的时候，案板上整整齐齐摆满了包好的饺子，像一排排小月亮。"
+	},
+	{
+	  "speaker": "奶奶",
+	  "text": "饿了吧？锅里有饺子，自己去盛。"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "你那时候没觉得有什么。后来很多年里也一直没觉得有什么。"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "直到很久以后你才知道——那天奶奶是想把她包了几十年的手艺传给你。她想让你学会。她觉得你会想学。"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "可你跑了出去。后来再也没有那样的下午了。"
+	},
+	{
+	  "speaker": "我",
+	  "text": "不……不应该是这样的。我不该跑。"
+	},
+	{
+	  "speaker": "旁白",
+	  "text": "眼前的画面忽然碎裂、倒卷——时间在往回走。"
+	}
+  ],
+  "choice": {
+	"prompt": "时间回到了那一刻。门外的拍门声重新响起。奶奶还在厨房等着你。",
+	"options": [
+	  {"text": "这次，和奶奶一起包饺子", "flag": "chose_grandma", "next_dialogue": "res://data/dialogues/choice_grandma.json"},
+	  {"text": "和朋友出去踢球", "flag": "chose_friend", "next_dialogue": "res://data/dialogues/choice_friend_regret.json"}
+	]
+  }
+}

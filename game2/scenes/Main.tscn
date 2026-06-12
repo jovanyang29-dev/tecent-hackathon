@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://4rfpuge6uiht"]
+
+[ext_resource type="Script" uid="uid://csrpctluw8boe" path="res://scripts/Main.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://d2xplayer0001" path="res://scenes/characters/Player.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/ui/DialogueUI.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/ui/InventoryUI.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/ui/PasswordUI.tscn" id="5"]
+
+[node name="Main" type="Node2D" unique_id=1386634799]
+script = ExtResource("1")
+
+[node name="Player" parent="." unique_id=732289887 instance=ExtResource("2")]
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1353626348]
+position_smoothing_enabled = true
+
+[node name="DialogueUI" parent="." unique_id=336056567 instance=ExtResource("3")]
+
+[node name="InventoryUI" parent="." unique_id=1076732654 instance=ExtResource("4")]
+
+[node name="PasswordUI" parent="." instance=ExtResource("5")]

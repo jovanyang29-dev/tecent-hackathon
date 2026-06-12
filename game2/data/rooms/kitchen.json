@@ -1,0 +1,13 @@
+{
+  "id": "kitchen",
+  "title": "厨房 —— 奶奶的味道",
+  "room_size": [480, 520],
+  "floor_base": [0.82, 0.80, 0.76],
+  "floor_alt": [0.78, 0.76, 0.72],
+  "floor_line": [0.58, 0.56, 0.52],
+  "furniture": [
+	{"name": "refrigerator", "pos": [0, 1, -3.7], "size": [1, 1, 1]},
+	{"name": "stove", "pos": [-1.5, 1, -3.7], "size": [1, 1, 1]}
+  ],
+  "interactions": []
+}

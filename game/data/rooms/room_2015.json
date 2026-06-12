@@ -1,0 +1,43 @@
+{
+  "id": "room_2015",
+  "title": "2015：旧世界的尾声",
+  "look_at": [0, 1.6, -1.5],
+  "furniture": [
+    {"name": "side_table", "pos": [0, 0.55, 0.5], "size": [1, 0.6, 1], "color": [0.4, 0.22, 0.12]}
+  ],
+  "interactions": [
+    {
+      "id": "empty_wall",
+      "name": "空荡荡的电视墙",
+      "dialogue": "res://data/dialogues/empty_wall.json",
+      "sets_flag": "saw_empty_wall",
+      "pos_3d": [0, 1.5, -3.3],
+      "size_3d": [3.5, 2, 0.3]
+    },
+    {
+      "id": "delivery_receipt",
+      "name": "桌上的外卖单",
+      "dialogue": "res://data/dialogues/delivery_2015.json",
+      "spawns_draggable": "receipt",
+      "pos_3d": [0, 0.65, 1.0],
+      "size_3d": [0.5, 0.4, 0.4]
+    },
+    {
+      "id": "old_remote_2015",
+      "name": "角落里的旧遥控器",
+      "dialogue": "res://data/dialogues/old_remote_2015.json",
+      "pos_3d": [-3, 0.1, -5],
+      "size_3d": [0.6, 0.3, 0.4]
+    },
+    {
+      "id": "smartphone",
+      "name": "智能手机",
+      "requires_item": "receipt",
+      "locked_dialogue": "res://data/dialogues/phone_locked.json",
+      "dialogue": "res://data/dialogues/last_message.json",
+      "sets_flag": "game_ending",
+      "pos_3d": [0, 0.75, 1.0],
+      "size_3d": [0.3, 0.6, 0.3]
+    }
+  ]
+}
