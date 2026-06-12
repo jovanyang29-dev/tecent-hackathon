@@ -1,0 +1,68 @@
+{
+  "id": "room_2008",
+  "title": "2008：客厅",
+  "look_at": [0, 1.6, -2.0],
+  "furniture": [
+    {"name": "tv_cabinet",   "pos": [0, 0.7, -5.5], "size": [7, 1.4, 1.5], "color": [0.3, 0.18, 0.08]},
+    {"name": "coffee_table", "pos": [0, 0.5, -2.0], "size": [5, 0.12, 2.2], "color": [0.35, 0.2, 0.1]},
+    {"name": "side_table",   "pos": [4.5, 0.55, -5.5], "size": [1.0, 0.6, 1.0], "color": [0.4, 0.22, 0.12]}
+  ],
+  "interactions": [
+    {
+      "id": "old_tv",
+      "name": "大屁股电视",
+      "dialogue": "res://data/dialogues/intro_2008.json",
+      "sets_flag": "checked_old_tv",
+      "pos_3d": [0, 1.7, -5.85],
+      "size_3d": [3.0, 1.2, 0.4]
+    },
+    {
+      "id": "family_photo",
+      "name": "全家福相框",
+      "dialogue": "res://data/dialogues/photo_2008.json",
+      "spawns_draggable": "small_key",
+      "spawn_anim": "shake",
+      "spawn_target": [0, 2.75, -5.8],
+      "pos_3d": [0, 4.5, -6.38],
+      "size_3d": [0.8, 1.0, 0.1]
+    },
+    {
+      "id": "drawer",
+      "name": "电视柜抽屉",
+      "requires_item": "small_key",
+      "locked_dialogue": "res://data/dialogues/drawer_locked.json",
+      "dialogue": "res://data/dialogues/found_remote.json",
+      "spawns_draggable": "remote_control",
+      "spawn_anim": "drawer_open",
+      "spawn_target": [0, 0.6, -2.0],
+      "spawned_item_action": {
+        "id": "remote_power",
+        "dialogue": "res://data/dialogues/use_remote.json",
+        "sets_flag": "played_family_video"
+      },
+      "pos_3d": [-2.2, 0.35, -4.73],
+      "size_3d": [1.0, 0.4, 0.4]
+    },
+    {
+      "id": "old_clock",
+      "name": "旧闹钟",
+      "dialogue": "res://data/dialogues/clock_2008.json",
+      "pos_3d": [-1.5, 0.62, -2.0],
+      "size_3d": [0.5, 0.5, 0.3]
+    },
+    {
+      "id": "landline",
+      "name": "座机电话",
+      "dialogue": "res://data/dialogues/landline_2008.json",
+      "pos_3d": [4.5, 0.95, -5.85],
+      "size_3d": [0.6, 0.4, 0.5]
+    },
+    {
+      "id": "dvd_player",
+      "name": "DVD 机",
+      "dialogue": "res://data/dialogues/need_remote.json",
+      "pos_3d": [1.8, 0.5, -4.73],
+      "size_3d": [0.8, 0.3, 0.5]
+    }
+  ]
+}
