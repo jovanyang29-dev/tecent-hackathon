@@ -26,7 +26,7 @@ jobs:
         uses: Ayowel/butler-to-itch@v1.2.0
         with:
           butler_key: ${{ secrets.ITCHIO_TOKEN }}
-          itch_user: YOUR_ITCH_USERNAME
-          itch_game: YOUR_GAME_NAME
+          itch_user: jovanyang29-dev
+          itch_game: jiuwuyu
           version: ${{ github.ref_name }}
           files: "${{ steps.export.outputs.archive_directory }}/HTML5-web.zip"
