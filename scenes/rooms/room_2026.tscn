@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://dqmj5p5wdh85a"]
+
+[ext_resource type="Script" uid="uid://bbkgfdyka5pt7" path="res://scripts/rooms/RoomBase.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://blqt32cuexjuk" path="res://assets/sprites/modern_cabinet.png" id="cabinet_tex"]
+[ext_resource type="Texture2D" uid="uid://x0pq4elajeit" path="res://assets/sprites/闹钟.png" id="clock_tex"]
+[ext_resource type="Texture2D" uid="uid://cija2ouq4rkuv" path="res://assets/sprites/modern_dining_table.png" id="dining_tex"]
+[ext_resource type="Texture2D" uid="uid://du5nuqoomfrcx" path="res://assets/sprites/father.png" id="father_tex"]
+[ext_resource type="Texture2D" uid="uid://ccfntmtcnlqub" path="res://assets/sprites/modern_plant2.png" id="plant2_tex"]
+[ext_resource type="Texture2D" uid="uid://da60ogfichcnv" path="res://assets/sprites/modern_plant.png" id="plant_tex"]
+[ext_resource type="Texture2D" uid="uid://7pbt26picfpt" path="res://assets/sprites/modern_shoe_rack.png" id="shoe_rack_tex"]
+[ext_resource type="Texture2D" uid="uid://cu2qglv7cps11" path="res://assets/sprites/modern_sofa.png" id="sofa_tex"]
+[ext_resource type="Texture2D" uid="uid://ew2t4l70b104" path="res://assets/sprites/modern_tvstand.png" id="tvstand_tex"]
+[ext_resource type="Texture2D" uid="uid://d25dfn1rqmem8" path="res://assets/sprites/wall_crack.png" id="wall_crack_tex"]
+
+[node name="Room2026" type="Node2D" unique_id=986012681]
+script = ExtResource("1")
+
+[node name="Walls" type="Node2D" parent="." unique_id=152784324]
+
+[node name="Doors" type="Node2D" parent="." unique_id=1499886592]
+
+[node name="Enemies" type="Node2D" parent="." unique_id=657833137]
+
+[node name="father" type="Sprite2D" parent="." unique_id=987654321]
+visible = false
+z_index = 5
+position = Vector2(145.70999, 65.68999)
+scale = Vector2(0.10736216, 0.11519135)
+texture = ExtResource("father_tex")
+
+[node name="wall_crack" type="Sprite2D" parent="." unique_id=999999999]
+z_index = 1
+position = Vector2(69.50001, -213.852)
+scale = Vector2(0.04150391, 0.04213673)
+texture = ExtResource("wall_crack_tex")
+
+[node name="modern_tvstand" type="Sprite2D" parent="." unique_id=990828714]
+z_index = 1
+position = Vector2(-6, -196)
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("tvstand_tex")
+
+[node name="modern_sofa" type="Sprite2D" parent="." unique_id=1406012621]
+position = Vector2(-6.0000014, -98)
+scale = Vector2(0.31058943, 0.225)
+texture = ExtResource("sofa_tex")
+
+[node name="modern_dining_table" type="Sprite2D" parent="." unique_id=434574440]
+position = Vector2(-124.54063, 42.862495)
+scale = Vector2(0.20787214, 0.19394763)
+texture = ExtResource("dining_tex")
+
+[node name="modern_cabinet" type="Sprite2D" parent="." unique_id=1439138598]
+z_index = 2
+position = Vector2(127, -190)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("cabinet_tex")
+
+[node name="modern_plant" type="Sprite2D" parent="." unique_id=219795125]
+z_index = 250
+position = Vector2(-170.50002, 19.574997)
+scale = Vector2(0.06226414, 0.07024058)
+texture = ExtResource("plant_tex")
+
+[node name="modern_shoe_rack" type="Sprite2D" parent="." unique_id=450142309]
+position = Vector2(229.00002, 105.000046)
+scale = Vector2(0.188, 0.313)
+texture = ExtResource("shoe_rack_tex")
+
+[node name="old_clock" type="Sprite2D" parent="." unique_id=2029362152]
+z_index = 1000
+position = Vector2(-100, 11.999996)
+scale = Vector2(0.096721314, 0.08391421)
+texture = ExtResource("clock_tex")
+
+[node name="modern_plant2" type="Sprite2D" parent="." unique_id=1539192598]
+z_index = 3
+position = Vector2(-121, -178)
+scale = Vector2(0.07151934, 0.11420502)
+texture = ExtResource("plant2_tex")

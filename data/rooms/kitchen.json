@@ -1,0 +1,225 @@
+{
+  "id": "kitchen",
+  "title": "厨房 —— 奶奶的味道",
+  "room_size": [
+	480,
+	520
+  ],
+  "floor_base": [
+	0.82,
+	0.8,
+	0.76
+  ],
+  "floor_alt": [
+	0.78,
+	0.76,
+	0.72
+  ],
+  "floor_line": [
+	0.58,
+	0.56,
+	0.52
+  ],
+  "furniture": [
+	{
+	  "name": "fridge",
+	  "pos_2d": [
+		120,
+		-125
+	  ],
+	  "size": [
+		1,
+		1,
+		1
+	  ],
+	  "color": [
+		0.5,
+		0.5,
+		0.5
+	  ]
+	}
+  ],
+  "interactions": [
+	{
+	  "id": "grandma",
+	  "name": "奶奶",
+	  "dialogue": "res://data/dialogues/grandma_invitation.json",
+	  "sets_flag": "grandma_invited",
+	  "pos_2d": [
+		-10,
+		-60
+	  ],
+	  "size_3d": [
+		1.0,
+		1.5,
+		1.0
+	  ],
+	  "hide_when": "grandma_invited"
+	},
+	{
+	  "id": "grandma_collect",
+	  "name": "奶奶",
+	  "dialogue": "res://data/dialogues/grandma_collect_ingredients.json",
+	  "locked_dialogue": "res://data/dialogues/grandma_need_more.json",
+	  "hint_dialogue_prefix": "res://data/dialogues/grandma_hint_",
+	  "hint_priority": [
+		"flour",
+		"ginger",
+		"cabbage",
+		"pork_filling",
+		"chives",
+        "rolling_pin"
+	  ],
+	  "sets_flag": "ingredients_collected",
+	  "starts_hidden": true,
+	  "show_when": "grandma_invited",
+	  "hide_when": "ingredients_collected",
+	  "submission_grid": [
+		"flour",
+		"rolling_pin",
+		"cabbage",
+		"pork_filling",
+		"chives",
+        "ginger"
+	  ],
+	  "pos_2d": [
+		-10,
+		-60
+	  ],
+	  "size": [
+		1.0,
+		1.0,
+		1.0
+	  ]
+	},
+	{
+	  "id": "grandma_dumpling",
+	  "name": "和奶奶一起包饺子",
+	  "dialogue": "res://data/dialogues/dumpling_sequence.json",
+	  "sets_flag": "dumpling_made",
+	  "starts_hidden": true,
+	  "show_when": "ingredients_collected",
+	  "pos_2d": [
+		-10,
+		-60
+	  ],
+	  "size": [
+		1.0,
+		1.0,
+		1.0
+	  ]
+	},
+	{
+	  "id": "kitchen_stove",
+	  "name": "炉灶",
+	  "dialogue": "res://data/dialogues/dumpling_finale.json",
+	  "sets_flag": "dumpling_done",
+	  "cooking_minigame": true,
+	  "starts_hidden": true,
+	  "show_when": "dumpling_made",
+	  "hide_when": "dumplings_cooked",
+	  "pos_2d": [
+		-50,
+		-110
+	  ],
+	  "size_3d": [
+		2.0,
+		1.5,
+		1.5
+	  ]
+	},
+	{
+	  "id": "grandma_finale",
+	  "name": "奶奶",
+	  "dialogue": "res://data/dialogues/dumpling_finale.json",
+	  "sets_flag": "dumpling_done",
+	  "starts_hidden": true,
+	  "show_when": "dumplings_cooked",
+	  "pos_2d": [
+		-10,
+		-60
+	  ],
+	  "size": [
+		1.0,
+		1.0,
+		1.0
+	  ]
+	},
+	{
+	  "id": "kitchen_cabbage",
+	  "name": "竹篮里的白菜",
+	  "dialogue": "res://data/dialogues/ingredient_cabbage.json",
+	  "collect_item": "cabbage",
+	  "sets_flag": "got_cabbage",
+	  "starts_hidden": true,
+	  "show_when": "grandma_invited",
+	  "hide_when": "got_cabbage",
+	  "pos_2d": [
+		175,
+		-97
+	  ],
+	  "size_3d": [
+		1.0,
+		1.0,
+		1.0
+	  ]
+	},
+	{
+	  "id": "kitchen_fridge",
+	  "name": "冰箱",
+	  "dialogue": "res://data/dialogues/ingredient_pork.json",
+	  "collect_item": "pork_filling",
+	  "sets_flag": "got_pork",
+	  "starts_hidden": true,
+	  "show_when": "grandma_invited",
+	  "hide_when": "got_ginger",
+	  "pos_2d": [
+		120,
+		-125
+	  ],
+	  "size_3d": [
+		1.2,
+		1.5,
+		1.0
+	  ]
+	},
+	{
+	  "id": "kitchen_flour",
+	  "name": "面粉袋",
+	  "dialogue": "res://data/dialogues/ingredient_flour.json",
+	  "collect_item": "flour",
+	  "sets_flag": "got_flour",
+	  "starts_hidden": true,
+	  "show_when": "grandma_invited",
+	  "hide_when": "got_flour",
+	  "pos_2d": [
+		-178,
+		-25
+	  ],
+	  "size_3d": [
+		0.8,
+		0.6,
+		0.6
+	  ]
+	},
+	{
+	  "id": "kitchen_tool_rack",
+	  "name": "厨具架",
+	  "dialogue": "res://data/dialogues/ingredient_rolling_pin.json",
+	  "collect_item": "rolling_pin",
+	  "sets_flag": "got_rolling_pin",
+	  "starts_hidden": true,
+	  "show_when": "grandma_invited",
+	  "hide_when": "got_rolling_pin",
+	  "pos_2d": [
+		-137,
+		-168
+	  ],
+	  "size_3d": [
+		1.5,
+		1.0,
+		2.5
+	  ]
+	}
+  ]
+}

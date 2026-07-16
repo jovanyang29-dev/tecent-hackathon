@@ -1,0 +1,164 @@
+{
+  "id": "room_2008_return",
+  "title": "2008年 —— 时光倒流",
+  "look_at": [
+    0,
+    1.6,
+    -2.0
+  ],
+  "furniture": [
+    {
+      "name": "tv_cabinet",
+      "pos": [
+        0,
+        0.7,
+        -5.5
+      ],
+      "size": [
+        7,
+        1.4,
+        1.5
+      ],
+      "color": [
+        0.3,
+        0.18,
+        0.08
+      ]
+    },
+    {
+      "name": "coffee_table",
+      "pos": [
+        0,
+        0.5,
+        -2.0
+      ],
+      "size": [
+        5,
+        0.12,
+        2.2
+      ],
+      "color": [
+        0.35,
+        0.2,
+        0.1
+      ]
+    },
+    {
+      "name": "side_table",
+      "pos": [
+        4.5,
+        0.55,
+        -5.5
+      ],
+      "size": [
+        1.0,
+        0.6,
+        1.0
+      ],
+      "color": [
+        0.4,
+        0.22,
+        0.12
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "landline_forgot",
+      "name": "座机",
+      "dialogue": "res://data/dialogues/forgot_phone_2008.json",
+      "hide_when": "got_xiaojie_number",
+      "pos_3d": [
+        4.0,
+        0.95,
+        -5.85
+      ],
+      "size_3d": [
+        0.6,
+        0.4,
+        0.5
+      ]
+    },
+    {
+      "id": "landline_call_xiaojie",
+      "name": "座机",
+      "dialogue": "res://data/dialogues/phone_call_xiaojie_father.json",
+      "sets_flag": "called_xiaojie",
+      "starts_hidden": true,
+      "show_when": "got_xiaojie_number",
+      "hide_when": "called_xiaojie",
+      "pos_3d": [
+        4.0,
+        0.95,
+        -5.85
+      ],
+      "size_3d": [
+        0.6,
+        0.4,
+        0.5
+      ]
+    },
+    {
+      "id": "landline_post_call",
+      "name": "座机",
+      "dialogue": "res://data/dialogues/landline_post_call_2008.json",
+      "starts_hidden": true,
+      "show_when": "called_xiaojie",
+      "pos_3d": [
+        4.0,
+        0.95,
+        -5.85
+      ],
+      "size_3d": [
+        0.6,
+        0.4,
+        0.5
+      ]
+    },
+    {
+      "id": "return_photo",
+      "name": "全家福",
+      "dialogue": "res://data/dialogues/return_photo_2008.json",
+      "pos_3d": [
+        3.4,
+        1.5,
+        -6.43
+      ],
+      "size_3d": [
+        0.8,
+        1.0,
+        0.1
+      ]
+    },
+    {
+      "id": "return_clock",
+      "name": "闹钟",
+      "dialogue": "res://data/dialogues/return_clock_2008.json",
+      "sets_flag": "seen_return_clock",
+      "pos_2d": [
+        -100,
+        -25
+      ],
+      "size_3d": [
+        2.0,
+        1.0,
+        1.5
+      ]
+    },
+    {
+      "id": "return_crack",
+      "name": "墙壁裂缝",
+      "dialogue": "res://data/dialogues/return_crack_2008.json",
+      "pos_3d": [
+        2.6,
+        1.3,
+        -6.43
+      ],
+      "size_3d": [
+        0.5,
+        1.2,
+        0.3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "room_2026_bedroom",
+  "title": "2026年 —— 卧室",
+  "look_at": [
+    0,
+    1.28,
+    -1.6
+  ],
+  "floor_base": [
+    0.4,
+    0.28,
+    0.22
+  ],
+  "floor_alt": [
+    0.44,
+    0.32,
+    0.24
+  ],
+  "floor_line": [
+    0.25,
+    0.16,
+    0.08
+  ],
+  "furniture": [
+    {
+      "name": "modern_bed",
+      "pos_2d": [
+        -149.75,
+        -122.375
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "wardrobe",
+      "pos_2d": [
+        -240,
+        -144
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "modern_toilet",
+      "pos_2d": [
+        128,
+        -80
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "modern_bathtub",
+      "pos_2d": [
+        -2,
+        -162
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "modern_towel_rack",
+      "pos_2d": [
+        -190,
+        -140
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "modern_shelf",
+      "pos_2d": [
+        160,
+        -100
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "modern_shower",
+      "pos_2d": [
+        220,
+        -120
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "modern_bathroom_shelf",
+      "pos_2d": [
+        220,
+        -120
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "modern_sink_2026",
+      "pos_2d": [
+        260,
+        -100
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "nightstand",
+      "pos_2d": [
+        -37,
+        -65
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "wake_up",
+      "name": "起床",
+      "dialogue": "res://data/dialogues/wake_2026_bedroom.json",
+      "sets_flag": "woke_in_2026",
+      "starts_hidden": true,
+      "show_when": "first_time_travel",
+      "hide_when": "woke_in_2026",
+      "pos_3d": [
+        0,
+        1.0,
+        -3.0
+      ],
+      "size_3d": [
+        3.0,
+        1.5,
+        3.0
+      ]
+    },
+    {
+      "id": "modern_shower",
+      "name": "花洒",
+      "dialogue": "res://data/dialogues/bathroom_shower.json",
+      "pos_2d": [
+        259,
+        75
+      ],
+      "size_3d": [
+        2.0,
+        2.5,
+        2.0
+      ],
+      "sets_flag": "used_shower"
+    },
+    {
+      "id": "modern_bathtub",
+      "name": "浴缸",
+      "dialogue": "res://data/dialogues/bathtub_bath.json",
+      "pos_2d": [
+        179.5,
+        103.56
+      ],
+      "size_3d": [
+        3.0,
+        2.0,
+        2.5
+      ],
+      "show_when": "used_shower",
+      "starts_hidden": true
+    }
+  ]
+}

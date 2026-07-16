@@ -1,0 +1,10 @@
+{
+  "id": "clock_time_return",
+  "lines": [
+	{
+	  "speaker": "旁白",
+	  "text": "现在是17：34分。",
+	  "event": "travel_to_2026_bedroom"
+	}
+  ]
+}

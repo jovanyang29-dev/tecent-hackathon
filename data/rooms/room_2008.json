@@ -1,0 +1,382 @@
+{
+  "id": "room_2008",
+  "title": "2008年 —— 一个普通的星期天",
+  "look_at": [
+    0,
+    1.6,
+    -2.0
+  ],
+  "furniture": [
+    {
+      "name": "tv_cabinet",
+      "pos": [
+        0,
+        0.7,
+        -5.5
+      ],
+      "size": [
+        7,
+        1.4,
+        1.5
+      ],
+      "color": [
+        0.3,
+        0.18,
+        0.08
+      ]
+    },
+    {
+      "name": "coffee_table",
+      "pos": [
+        0,
+        0.5,
+        -2.0
+      ],
+      "size": [
+        5,
+        0.12,
+        2.2
+      ],
+      "color": [
+        0.35,
+        0.2,
+        0.1
+      ]
+    },
+    {
+      "name": "side_table",
+      "pos": [
+        4.5,
+        0.55,
+        -5.5
+      ],
+      "size": [
+        1.0,
+        0.6,
+        1.0
+      ],
+      "color": [
+        0.4,
+        0.22,
+        0.12
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "old_tv",
+      "name": "大屁股电视",
+      "dialogue": "res://data/dialogues/intro_2008.json",
+      "sets_flag": "checked_old_tv",
+      "requires_flag": "dvd_seen",
+      "pos_3d": [
+        0,
+        1.7,
+        -5.85
+      ],
+      "size_3d": [
+        3.0,
+        1.2,
+        0.4
+      ]
+    },
+    {
+      "id": "old_clock",
+      "name": "旧闹钟",
+      "dialogue": "res://data/dialogues/clock_time_return.json",
+      "sets_flag": "story_complete",
+      "starts_hidden": true,
+      "show_when": "dumpling_done",
+      "pos_3d": [
+        -1.5,
+        0.62,
+        -2.0
+      ],
+      "size_3d": [
+        2.0,
+        1.0,
+        1.5
+      ]
+    },
+    {
+      "id": "landline",
+      "name": "老式座机",
+      "dialogue": "res://data/dialogues/landline_2008.json",
+      "sets_flag": "landline_seen",
+      "requires_flag": "checked_old_tv",
+      "pos_3d": [
+        4.5,
+        0.95,
+        -5.85
+      ],
+      "size_3d": [
+        0.6,
+        0.4,
+        0.5
+      ]
+    },
+    {
+      "id": "dvd_player",
+      "name": "DVD 机",
+      "dialogue": "res://data/dialogues/dvd_nostalgia.json",
+      "sets_flag": "dvd_seen",
+      "requires_flag": "tried_drawer",
+      "pos_3d": [
+        1.8,
+        0.5,
+        -4.73
+      ],
+      "size_3d": [
+        0.8,
+        0.3,
+        0.5
+      ]
+    },
+    {
+      "id": "calendar",
+      "name": "台历",
+      "dialogue": "res://data/dialogues/calendar_2008.json",
+      "sets_flag": "saw_calendar",
+      "pos_3d": [
+        0.2,
+        0.6,
+        -3.7
+      ],
+      "size_3d": [
+        0.8,
+        0.6,
+        0.2
+      ]
+    },
+    {
+      "id": "family_photo",
+      "name": "全家福相框",
+      "dialogue": "res://data/dialogues/photo_2008.json",
+      "sets_flag": "saw_photo",
+      "spawns_draggable": "small_key",
+      "spawn_anim": "shake",
+      "spawn_target": [
+        0,
+        2.75,
+        -5.8
+      ],
+      "requires_flag": "landline_seen",
+      "pos_3d": [
+        3.4,
+        1.5,
+        -6.43
+      ],
+      "size_3d": [
+        0.8,
+        1.0,
+        0.1
+      ]
+    },
+    {
+      "id": "drawer",
+      "name": "电视柜",
+      "requires_item": "small_key",
+      "locked_dialogue": "res://data/dialogues/drawer_locked.json",
+      "locked_sets_flag": "tried_drawer",
+      "dialogue": "res://data/dialogues/drawer_reveal.json",
+      "spawn_anim": "drawer_open",
+      "sets_flag": "drawer_opened",
+      "requires_flag": "saw_calendar",
+      "pos_3d": [
+        -0.6,
+        0.35,
+        -4.8
+      ],
+      "size_3d": [
+        2.5,
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "id": "tv_cabinet_leek",
+      "name": "韭菜袋子",
+      "dialogue": "res://data/dialogues/ingredient_chives.json",
+      "collect_item": "chives",
+      "sets_flag": "got_chives",
+      "starts_hidden": true,
+      "show_when": "grandma_invited",
+      "hide_when": "got_chives",
+      "pos_2d": [
+        25,
+        -170
+      ],
+      "size_3d": [
+        0.6,
+        0.5,
+        0.4
+      ]
+    },
+    {
+      "id": "coffee_chives",
+      "name": "韭菜",
+      "dialogue": "res://data/dialogues/ingredient_chives.json",
+      "collect_item": "chives",
+      "sets_flag": "got_chives",
+      "starts_hidden": true,
+      "show_when": "grandma_invited",
+      "hide_when": "got_chives",
+      "pos_2d": [
+        25,
+        -170
+      ],
+      "size_3d": [
+        0.6,
+        0.5,
+        0.4
+      ]
+    },
+    {
+      "id": "grandma",
+      "name": "奶奶",
+      "dialogue": "res://data/dialogues/grandma_invitation.json",
+      "sets_flag": "grandma_invited",
+      "starts_hidden": true,
+      "show_when": "drawer_opened",
+      "hide_when": "grandma_invited",
+      "pos_3d": [
+        -5.2,
+        1.0,
+        -2.0
+      ],
+      "size_3d": [
+        1.0,
+        1.5,
+        1.0
+      ]
+    },
+    {
+      "id": "grandma_collect",
+      "name": "奶奶",
+      "dialogue": "res://data/dialogues/grandma_collect_ingredients.json",
+      "locked_dialogue": "res://data/dialogues/grandma_need_more.json",
+      "hint_dialogue_prefix": "res://data/dialogues/grandma_hint_",
+      "hint_priority": [
+        "flour",
+        "ginger",
+        "cabbage",
+        "pork_filling",
+        "chives",
+        "rolling_pin"
+      ],
+      "sets_flag": "ingredients_collected",
+      "starts_hidden": true,
+      "show_when": "grandma_invited",
+      "hide_when": "ingredients_collected",
+      "pos_3d": [
+        -5.2,
+        1.0,
+        -2.0
+      ],
+      "size_3d": [
+        1.0,
+        1.5,
+        1.0
+      ],
+      "submission_grid": [
+        "flour",
+        "rolling_pin",
+        "cabbage",
+        "pork_filling",
+        "chives",
+        "ginger"
+      ]
+    },
+    {
+      "id": "grandma_dumpling",
+      "name": "和奶奶一起包饺子",
+      "dialogue": "res://data/dialogues/dumpling_sequence.json",
+      "sets_flag": "dumpling_made",
+      "starts_hidden": true,
+      "show_when": "ingredients_collected",
+      "pos_3d": [
+        -5.2,
+        1.0,
+        -2.0
+      ],
+      "size_3d": [
+        1.0,
+        1.5,
+        1.0
+      ]
+    },
+    {
+      "id": "grandma_finale",
+      "name": "奶奶",
+      "dialogue": "res://data/dialogues/dumpling_finale.json",
+      "sets_flag": "dumpling_done",
+      "starts_hidden": true,
+      "show_when": "dumpling_made",
+      "pos_3d": [
+        -5.2,
+        1.0,
+        -2.0
+      ],
+      "size_3d": [
+        1.0,
+        1.5,
+        1.0
+      ]
+    },
+    {
+      "id": "clock_time_return",
+      "name": "发光的闹钟",
+      "dialogue": "res://data/dialogues/clock_time_return.json",
+      "sets_flag": "story_complete",
+      "starts_hidden": true,
+      "show_when": "dumpling_done",
+      "hide_when": "story_complete",
+      "pos_3d": [
+        -1.5,
+        0.62,
+        -2.0
+      ],
+      "size_3d": [
+        2.0,
+        1.0,
+        1.5
+      ]
+    },
+    {
+      "id": "wall_crack",
+      "name": "墙壁裂缝",
+      "dialogue": "res://data/dialogues/wall_crack_2008.json",
+      "sets_flag": "wall_crack_seen",
+      "starts_hidden": true,
+      "show_when": "dumpling_done",
+      "pos_3d": [
+        2.6,
+        1.3,
+        -6.43
+      ],
+      "size_3d": [
+        0.5,
+        1.2,
+        0.3
+      ]
+    },
+    {
+      "id": "clock_depart",
+      "name": "发光的闹钟",
+      "dialogue": "res://data/dialogues/clock_depart_2008.json",
+      "sets_flag": "first_time_travel",
+      "starts_hidden": true,
+      "show_when": "wall_crack_seen",
+      "pos_3d": [
+        -1.5,
+        0.62,
+        -2.0
+      ],
+      "size_3d": [
+        2.0,
+        1.0,
+        1.5
+      ]
+    },
+  ]
+}

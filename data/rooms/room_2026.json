@@ -1,0 +1,162 @@
+{
+  "id": "room_2026",
+  "title": "2026年 —— 现代的客厅",
+  "look_at": [
+	0,
+	1.6,
+	-2.0
+  ],
+  "floor_base": [
+	0.78,
+	0.76,
+	0.72
+  ],
+  "floor_alt": [
+	0.82,
+	0.8,
+	0.76
+  ],
+  "floor_line": [
+	0.65,
+	0.63,
+	0.6
+  ],
+  "furniture": [],
+  "interactions": [
+	{
+	  "id": "old_clock_return",
+	  "name": "旧闹钟",
+	  "dialogue": "res://data/dialogues/clock_return.json",
+	  "size_3d": [
+		2.5,
+		2.5,
+		2.0
+	  ],
+	  "pos_2d": [
+		-100,
+		12
+	  ]
+	},
+	{
+	  "id": "family_photo_2026",
+	  "name": "全家福",
+	  "dialogue": "res://data/dialogues/modern_photo_missing.json",
+	  "sets_flag": "crack_in_2026_seen",
+	  "starts_hidden": true,
+	  "show_when": "dumpling_done",
+	  "hide_when": "crack_in_2026_seen",
+	  "pos_3d": [
+		3.0,
+		1.6,
+		-6.0
+	  ],
+	  "size_3d": [
+		0.8,
+		0.8,
+		0.1
+	  ]
+	},
+	{
+	  "id": "wall_crack_2026",
+	  "name": "墙壁裂缝",
+	  "dialogue": "res://data/dialogues/wall_crack_2026.json",
+	  "sets_flag": "crack_in_2026_seen",
+	  "starts_hidden": true,
+	  "show_when": "dumpling_done",
+	  "pos_2d": [
+		69.5,
+		-213.9
+	  ],
+	  "size_3d": [
+		1.5,
+		2.0,
+		0.3
+	  ]
+	},
+	{
+	  "id": "father_npc",
+	  "name": "父亲",
+	  "dialogue": "res://data/dialogues/father_meeting.json",
+	  "sets_flag": "met_father_2026",
+	  "starts_hidden": true,
+	  "show_when": "dumpling_done",
+	  "hide_when": "family_photo_taken",
+	  "pos_2d": [
+		145.7,
+		65.7
+	  ],
+	  "size_3d": [
+		1.2,
+		2.0,
+		0.8
+	  ]
+	},
+	{
+	  "id": "wechat_call",
+	  "name": "手机",
+	  "dialogue": "res://data/dialogues/wechat_xiaojie_2026.json",
+	  "sets_flag": "got_xiaojie_number",
+	  "starts_hidden": true,
+	  "show_when": "met_father_2026",
+	  "hide_when": "got_xiaojie_number",
+	  "pos_2d": [
+		0,
+		-120
+	  ],
+	  "size_3d": [
+		1.8,
+		1.0,
+		1.0
+	  ]
+	},
+	{
+	  "id": "wechat_followup",
+	  "name": "手机",
+	  "dialogue": "res://data/dialogues/wechat_followup_2026.json",
+	  "starts_hidden": true,
+	  "show_when": "called_xiaojie",
+	  "pos_2d": [
+		0,
+		-120
+	  ],
+	  "size_3d": [
+		1.8,
+		1.0,
+		1.0
+	  ]
+	},
+	{
+	  "id": "photo_crack_finale",
+	  "name": "走进裂缝",
+	  "dialogue": "res://data/dialogues/ending_crack.json",
+	  "starts_hidden": true,
+	  "show_when": "father_story_complete",
+	  "pos_2d": [
+		69.5,
+		-173.9
+	  ],
+	  "size_3d": [
+		1.8,
+		2.2,
+		0.3
+	  ]
+	},
+	{
+	  "id": "father_resolution",
+	  "name": "父亲",
+	  "dialogue": "res://data/dialogues/father_ending.json",
+	  "sets_flag": "father_story_complete",
+	  "starts_hidden": true,
+	  "show_when": "family_photo_taken",
+	  "pos_2d": [
+		145.7,
+		65.7
+	  ],
+	  "size_3d": [
+		1.2,
+		2.0,
+		0.8
+	  ]
+	}
+  ]
+}

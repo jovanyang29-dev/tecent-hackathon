@@ -1,0 +1,127 @@
+[gd_scene format=3 uid="uid://bedroom001"]
+
+[ext_resource type="Script" uid="uid://dil7l1j4j74ow" path="res://scripts/rooms/RoomBase.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://ba62ywem0vnvn" path="res://assets/sprites/卧室_床.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ca02yrds4rlk1" path="res://assets/sprites/卧室_衣柜.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://qawrxpcu80js" path="res://assets/sprites/厕所_马桶.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d4gkdjcrp80h2" path="res://assets/sprites/厕所_水槽.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dnpyhto10dp1o" path="res://assets/sprites/卧室_床头柜.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://h7snwvmclukv" path="res://assets/sprites/厕所_浴缸.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c21k58oia1qxr" path="res://assets/sprites/窗户.png" id="window_tex"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bed"]
+size = Vector2(126.4, 96)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wardrobe"]
+size = Vector2(80, 128)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nightstand"]
+size = Vector2(36.8, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_toilet"]
+size = Vector2(48, 56)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sink"]
+size = Vector2(48, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bathtub"]
+size = Vector2(80, 64)
+
+[node name="room_bedroom" type="Node2D" unique_id=1003315216]
+script = ExtResource("1")
+
+[node name="wardrobe" type="Sprite2D" parent="." unique_id=715333631]
+visible = false
+position = Vector2(-8.000012, -148.8)
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("3")
+
+[node name="window" type="Sprite2D" parent="." unique_id=1630652098]
+z_index = 5
+position = Vector2(5, -226)
+scale = Vector2(0.04770507, 0.049169917)
+texture = ExtResource("window_tex")
+
+[node name="bed" type="Sprite2D" parent="." unique_id=1155269611]
+position = Vector2(-101.6, -125.6)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2")
+
+[node name="nightstand" type="Sprite2D" parent="." unique_id=420465191]
+position = Vector2(-193.60002, -121.6)
+scale = Vector2(0.21604563, 0.23066662)
+texture = ExtResource("6")
+
+[node name="toilet" type="Sprite2D" parent="." unique_id=1734629333]
+position = Vector2(128, -144)
+scale = Vector2(0.32, 0.32)
+texture = ExtResource("4")
+
+[node name="sink" type="Sprite2D" parent="." unique_id=1641744907]
+position = Vector2(192, -144)
+scale = Vector2(0.32, 0.32)
+texture = ExtResource("5")
+
+[node name="bathtub" type="Sprite2D" parent="." unique_id=1258705195]
+position = Vector2(176, 16)
+scale = Vector2(0.28, 0.28)
+texture = ExtResource("7")
+
+[node name="Hotspot_bed" type="Area2D" parent="." unique_id=1284410545]
+z_index = 160
+position = Vector2(-144, -64)
+collision_layer = 0
+metadata/interaction = {}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspot_bed" unique_id=1404908837]
+position = Vector2(40.8, -49.6)
+shape = SubResource("RectangleShape2D_bed")
+
+[node name="Hotspot_wardrobe" type="Area2D" parent="." unique_id=918240387]
+z_index = 160
+position = Vector2(-256, -160)
+collision_layer = 0
+metadata/interaction = {}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspot_wardrobe" unique_id=1115270769]
+position = Vector2(251.2, 11.2)
+shape = SubResource("RectangleShape2D_wardrobe")
+
+[node name="Hotspot_nightstand" type="Area2D" parent="." unique_id=71898446]
+z_index = 160
+position = Vector2(-29.6, -24)
+collision_layer = 0
+metadata/interaction = {}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspot_nightstand" unique_id=853065019]
+position = Vector2(-163.2, -100)
+shape = SubResource("RectangleShape2D_nightstand")
+
+[node name="Hotspot_toilet" type="Area2D" parent="." unique_id=1959327607]
+z_index = 160
+position = Vector2(128, -144)
+collision_layer = 0
+metadata/interaction = {}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspot_toilet" unique_id=1680727541]
+position = Vector2(-0.8, 1.6)
+shape = SubResource("RectangleShape2D_toilet")
+
+[node name="Hotspot_sink" type="Area2D" parent="." unique_id=1293035118]
+z_index = 160
+position = Vector2(224, -144)
+collision_layer = 0
+metadata/interaction = {}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspot_sink" unique_id=2132683495]
+position = Vector2(-29.6, 1.6)
+shape = SubResource("RectangleShape2D_sink")
+
+[node name="Hotspot_bathtub" type="Area2D" parent="." unique_id=1631413062]
+z_index = 160
+position = Vector2(176, 16)
+collision_layer = 0
+metadata/interaction = {}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hotspot_bathtub" unique_id=100520392]
+shape = SubResource("RectangleShape2D_bathtub")
