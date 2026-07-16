@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bic2dlo0fri54"
-path="res://.godot/imported/韭菜.png-ba02074a68c89abbec8029cb8ef64fbc.ctex"
+path="res://.godot/imported/韭菜.png-ba02074a68c89abbec8029cb8ef64fbc.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/韭菜.png"
-dest_files=["res://.godot/imported/韭菜.png-ba02074a68c89abbec8029cb8ef64fbc.ctex"]
+dest_files=["res://.godot/imported/韭菜.png-ba02074a68c89abbec8029cb8ef64fbc.png"]
 
 [params]
 

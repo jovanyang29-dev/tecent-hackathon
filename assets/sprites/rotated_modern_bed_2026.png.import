@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://y23ymp5siqcc"
-path="res://.godot/imported/rotated_modern_bed_2026.png-676e22c248f35fea17f9662de2a5db8f.ctex"
+path="res://.godot/imported/rotated_modern_bed_2026.png-676e22c248f35fea17f9662de2a5db8f.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/rotated_modern_bed_2026.png"
-dest_files=["res://.godot/imported/rotated_modern_bed_2026.png-676e22c248f35fea17f9662de2a5db8f.ctex"]
+dest_files=["res://.godot/imported/rotated_modern_bed_2026.png-676e22c248f35fea17f9662de2a5db8f.png"]
 
 [params]
 

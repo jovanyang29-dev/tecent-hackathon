@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bcwel6wxu7015"
-path="res://.godot/imported/小钥匙_debug.png-a1d34d7f379348800b640c96d351cba0.ctex"
+path="res://.godot/imported/小钥匙_debug.png-a1d34d7f379348800b640c96d351cba0.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/小钥匙_debug.png"
-dest_files=["res://.godot/imported/小钥匙_debug.png-a1d34d7f379348800b640c96d351cba0.ctex"]
+dest_files=["res://.godot/imported/小钥匙_debug.png-a1d34d7f379348800b640c96d351cba0.png"]
 
 [params]
 

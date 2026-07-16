@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dg5kqy7wenway"
-path="res://.godot/imported/cg_grandma_kitchen_pixel.png-4fe8ebf31d7ef3bc9f1f2f84901e85ec.ctex"
+path="res://.godot/imported/cg_grandma_kitchen_pixel.png-4fe8ebf31d7ef3bc9f1f2f84901e85ec.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/images/cg/cg_grandma_kitchen_pixel.png"
-dest_files=["res://.godot/imported/cg_grandma_kitchen_pixel.png-4fe8ebf31d7ef3bc9f1f2f84901e85ec.ctex"]
+dest_files=["res://.godot/imported/cg_grandma_kitchen_pixel.png-4fe8ebf31d7ef3bc9f1f2f84901e85ec.png"]
 
 [params]
 

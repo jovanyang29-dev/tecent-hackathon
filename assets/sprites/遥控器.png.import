@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://gvg6fc4dn2xx"
-path="res://.godot/imported/遥控器.png-aa8b3b84bf400179311f023b3d0148b5.ctex"
+path="res://.godot/imported/遥控器.png-aa8b3b84bf400179311f023b3d0148b5.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/遥控器.png"
-dest_files=["res://.godot/imported/遥控器.png-aa8b3b84bf400179311f023b3d0148b5.ctex"]
+dest_files=["res://.godot/imported/遥控器.png-aa8b3b84bf400179311f023b3d0148b5.png"]
 
 [params]
 

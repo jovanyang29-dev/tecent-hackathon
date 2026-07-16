@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bdxhn2ibt65gv"
-path="res://.godot/imported/frame_04.png-70510c727f718f95597e8d3b313158dc.ctex"
+path="res://.godot/imported/frame_04.png-70510c727f718f95597e8d3b313158dc.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/steam/frame_04.png"
-dest_files=["res://.godot/imported/frame_04.png-70510c727f718f95597e8d3b313158dc.ctex"]
+dest_files=["res://.godot/imported/frame_04.png-70510c727f718f95597e8d3b313158dc.png"]
 
 [params]
 

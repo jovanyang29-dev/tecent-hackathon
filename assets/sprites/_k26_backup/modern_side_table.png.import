@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://c5mpmv2qwq0gq"
-path="res://.godot/imported/modern_side_table.png-71304d7172f6826753791ebb14645d40.ctex"
+path="res://.godot/imported/modern_side_table.png-71304d7172f6826753791ebb14645d40.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/_k26_backup/modern_side_table.png"
-dest_files=["res://.godot/imported/modern_side_table.png-71304d7172f6826753791ebb14645d40.ctex"]
+dest_files=["res://.godot/imported/modern_side_table.png-71304d7172f6826753791ebb14645d40.png"]
 
 [params]
 

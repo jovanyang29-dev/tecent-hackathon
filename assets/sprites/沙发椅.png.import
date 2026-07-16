@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://ciek0qyvannxn"
-path="res://.godot/imported/沙发椅.png-f1535a13a14a9773a00f4da5d87181b3.ctex"
+path="res://.godot/imported/沙发椅.png-f1535a13a14a9773a00f4da5d87181b3.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/沙发椅.png"
-dest_files=["res://.godot/imported/沙发椅.png-f1535a13a14a9773a00f4da5d87181b3.ctex"]
+dest_files=["res://.godot/imported/沙发椅.png-f1535a13a14a9773a00f4da5d87181b3.png"]
 
 [params]
 

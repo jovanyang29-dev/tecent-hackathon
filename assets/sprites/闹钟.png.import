@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://x0pq4elajeit"
-path="res://.godot/imported/闹钟.png-2a41024ecde0e7878bfd0620f666d616.ctex"
+path="res://.godot/imported/闹钟.png-2a41024ecde0e7878bfd0620f666d616.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/闹钟.png"
-dest_files=["res://.godot/imported/闹钟.png-2a41024ecde0e7878bfd0620f666d616.ctex"]
+dest_files=["res://.godot/imported/闹钟.png-2a41024ecde0e7878bfd0620f666d616.png"]
 
 [params]
 

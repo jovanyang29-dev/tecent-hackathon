@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://lx83b7wonguf"
-path="res://.godot/imported/卧室_床.png-99e4a51efb026bc26c49c51e962ef3d0.ctex"
+path="res://.godot/imported/卧室_床.png-99e4a51efb026bc26c49c51e962ef3d0.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/卧室_床.png"
-dest_files=["res://.godot/imported/卧室_床.png-99e4a51efb026bc26c49c51e962ef3d0.ctex"]
+dest_files=["res://.godot/imported/卧室_床.png-99e4a51efb026bc26c49c51e962ef3d0.png"]
 
 [params]
 

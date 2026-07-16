@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://q2ch72sc7e0t"
-path="res://.godot/imported/coffee_palette.png-3a8dae579bd52065cc6aee4842409fe2.ctex"
+path="res://.godot/imported/coffee_palette.png-3a8dae579bd52065cc6aee4842409fe2.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/_k26_backup/coffee_palette.png"
-dest_files=["res://.godot/imported/coffee_palette.png-3a8dae579bd52065cc6aee4842409fe2.ctex"]
+dest_files=["res://.godot/imported/coffee_palette.png-3a8dae579bd52065cc6aee4842409fe2.png"]
 
 [params]
 

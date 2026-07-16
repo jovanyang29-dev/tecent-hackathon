@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bipdmaykg5ha"
-path="res://.godot/imported/modern_furniture_sheet.png-940a56221bd15c6c40ef1260480ffe83.ctex"
+path="res://.godot/imported/modern_furniture_sheet.png-940a56221bd15c6c40ef1260480ffe83.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/modern_furniture_sheet.png"
-dest_files=["res://.godot/imported/modern_furniture_sheet.png-940a56221bd15c6c40ef1260480ffe83.ctex"]
+dest_files=["res://.godot/imported/modern_furniture_sheet.png-940a56221bd15c6c40ef1260480ffe83.png"]
 
 [params]
 

@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://b0bdpiu64e3rh"
-path="res://.godot/imported/卧室_衣柜.png-9587971b6d8f3ad7690f9dead0ae167c.ctex"
+path="res://.godot/imported/卧室_衣柜.png-9587971b6d8f3ad7690f9dead0ae167c.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/卧室_衣柜.png"
-dest_files=["res://.godot/imported/卧室_衣柜.png-9587971b6d8f3ad7690f9dead0ae167c.ctex"]
+dest_files=["res://.godot/imported/卧室_衣柜.png-9587971b6d8f3ad7690f9dead0ae167c.png"]
 
 [params]
 

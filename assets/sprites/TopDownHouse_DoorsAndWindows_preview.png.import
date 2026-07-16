@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://2sc403awa5gp"
-path="res://.godot/imported/TopDownHouse_DoorsAndWindows_preview.png-87725b1d2894fca5939b0b3f2fe56962.ctex"
+path="res://.godot/imported/TopDownHouse_DoorsAndWindows_preview.png-87725b1d2894fca5939b0b3f2fe56962.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/TopDownHouse_DoorsAndWindows_preview.png"
-dest_files=["res://.godot/imported/TopDownHouse_DoorsAndWindows_preview.png-87725b1d2894fca5939b0b3f2fe56962.ctex"]
+dest_files=["res://.godot/imported/TopDownHouse_DoorsAndWindows_preview.png-87725b1d2894fca5939b0b3f2fe56962.png"]
 
 [params]
 

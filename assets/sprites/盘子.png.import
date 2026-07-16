@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://b66sn0srnr28o"
-path="res://.godot/imported/盘子.png-45db3850b4ace45091d37d17f1258994.ctex"
+path="res://.godot/imported/盘子.png-45db3850b4ace45091d37d17f1258994.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/盘子.png"
-dest_files=["res://.godot/imported/盘子.png-45db3850b4ace45091d37d17f1258994.ctex"]
+dest_files=["res://.godot/imported/盘子.png-45db3850b4ace45091d37d17f1258994.png"]
 
 [params]
 

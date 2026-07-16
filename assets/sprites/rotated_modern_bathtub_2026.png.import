@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://jw5m554ab0jc"
-path="res://.godot/imported/rotated_modern_bathtub_2026.png-90c54fe22b4b127bf8e6aa03b5637830.ctex"
+path="res://.godot/imported/rotated_modern_bathtub_2026.png-90c54fe22b4b127bf8e6aa03b5637830.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/rotated_modern_bathtub_2026.png"
-dest_files=["res://.godot/imported/rotated_modern_bathtub_2026.png-90c54fe22b4b127bf8e6aa03b5637830.ctex"]
+dest_files=["res://.godot/imported/rotated_modern_bathtub_2026.png-90c54fe22b4b127bf8e6aa03b5637830.png"]
 
 [params]
 

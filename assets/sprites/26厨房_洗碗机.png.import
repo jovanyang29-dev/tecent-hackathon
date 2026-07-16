@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://5elos7fdaug3"
-path="res://.godot/imported/26厨房_洗碗机.png-b8e6faa76c3432f2d7f8cad270083098.ctex"
+path="res://.godot/imported/26厨房_洗碗机.png-b8e6faa76c3432f2d7f8cad270083098.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/26厨房_洗碗机.png"
-dest_files=["res://.godot/imported/26厨房_洗碗机.png-b8e6faa76c3432f2d7f8cad270083098.ctex"]
+dest_files=["res://.godot/imported/26厨房_洗碗机.png-b8e6faa76c3432f2d7f8cad270083098.png"]
 
 [params]
 

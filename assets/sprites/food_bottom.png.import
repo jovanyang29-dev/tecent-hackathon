@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://v06j8k8lquak"
-path="res://.godot/imported/food_bottom.png-d8e201c27cda0c04d0c54a2fd3df5b48.ctex"
+path="res://.godot/imported/food_bottom.png-d8e201c27cda0c04d0c54a2fd3df5b48.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/food_bottom.png"
-dest_files=["res://.godot/imported/food_bottom.png-d8e201c27cda0c04d0c54a2fd3df5b48.ctex"]
+dest_files=["res://.godot/imported/food_bottom.png-d8e201c27cda0c04d0c54a2fd3df5b48.png"]
 
 [params]
 

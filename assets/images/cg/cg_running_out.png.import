@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://c8rtm8b57rblg"
-path="res://.godot/imported/cg_running_out.png-d5064990d89299ae62d0847bce43ae36.ctex"
+path="res://.godot/imported/cg_running_out.png-d5064990d89299ae62d0847bce43ae36.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/images/cg/cg_running_out.png"
-dest_files=["res://.godot/imported/cg_running_out.png-d5064990d89299ae62d0847bce43ae36.ctex"]
+dest_files=["res://.godot/imported/cg_running_out.png-d5064990d89299ae62d0847bce43ae36.png"]
 
 [params]
 

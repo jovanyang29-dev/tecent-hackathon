@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dph4tto1aq0hk"
-path="res://.godot/imported/grandma.png-1b3acfd7d0d3bbf66b64f62797bd8de4.ctex"
+path="res://.godot/imported/grandma.png-1b3acfd7d0d3bbf66b64f62797bd8de4.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/grandma.png"
-dest_files=["res://.godot/imported/grandma.png-1b3acfd7d0d3bbf66b64f62797bd8de4.ctex"]
+dest_files=["res://.godot/imported/grandma.png-1b3acfd7d0d3bbf66b64f62797bd8de4.png"]
 
 [params]
 

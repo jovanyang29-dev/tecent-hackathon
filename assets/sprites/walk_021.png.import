@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://ct0wujt7yhf5u"
-path="res://.godot/imported/walk_021.png-c28bbbd4232776bbaf2e5577bac34c10.ctex"
+path="res://.godot/imported/walk_021.png-c28bbbd4232776bbaf2e5577bac34c10.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/walk_021.png"
-dest_files=["res://.godot/imported/walk_021.png-c28bbbd4232776bbaf2e5577bac34c10.ctex"]
+dest_files=["res://.godot/imported/walk_021.png-c28bbbd4232776bbaf2e5577bac34c10.png"]
 
 [params]
 

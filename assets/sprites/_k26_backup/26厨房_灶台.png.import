@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://ixaxi4qebol3"
-path="res://.godot/imported/26厨房_灶台.png-96a7f2c5514bf656985f9c34280dca5e.ctex"
+path="res://.godot/imported/26厨房_灶台.png-96a7f2c5514bf656985f9c34280dca5e.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/_k26_backup/26厨房_灶台.png"
-dest_files=["res://.godot/imported/26厨房_灶台.png-96a7f2c5514bf656985f9c34280dca5e.ctex"]
+dest_files=["res://.godot/imported/26厨房_灶台.png-96a7f2c5514bf656985f9c34280dca5e.png"]
 
 [params]
 

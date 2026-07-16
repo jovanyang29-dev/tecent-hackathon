@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dxwpu48m7wimt"
-path="res://.godot/imported/水槽.png-a616ba5ff91eef27ae98d87a7666508d.ctex"
+path="res://.godot/imported/水槽.png-a616ba5ff91eef27ae98d87a7666508d.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/水槽.png"
-dest_files=["res://.godot/imported/水槽.png-a616ba5ff91eef27ae98d87a7666508d.ctex"]
+dest_files=["res://.godot/imported/水槽.png-a616ba5ff91eef27ae98d87a7666508d.png"]
 
 [params]
 

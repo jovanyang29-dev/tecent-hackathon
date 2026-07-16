@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://0s18xpimnrjy"
-path="res://.godot/imported/DVD机.png-ca7b968bc136fea45879e182d624aa92.ctex"
+path="res://.godot/imported/DVD机.png-ca7b968bc136fea45879e182d624aa92.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/DVD机.png"
-dest_files=["res://.godot/imported/DVD机.png-ca7b968bc136fea45879e182d624aa92.ctex"]
+dest_files=["res://.godot/imported/DVD机.png-ca7b968bc136fea45879e182d624aa92.png"]
 
 [params]
 

@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://e4pgndsmo1nk"
-path="res://.godot/imported/check_modern_bathtub_2026.png-b51deaf9928041b2ba27c9fe2d8b7fb9.ctex"
+path="res://.godot/imported/check_modern_bathtub_2026.png-b51deaf9928041b2ba27c9fe2d8b7fb9.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/check_modern_bathtub_2026.png"
-dest_files=["res://.godot/imported/check_modern_bathtub_2026.png-b51deaf9928041b2ba27c9fe2d8b7fb9.ctex"]
+dest_files=["res://.godot/imported/check_modern_bathtub_2026.png-b51deaf9928041b2ba27c9fe2d8b7fb9.png"]
 
 [params]
 

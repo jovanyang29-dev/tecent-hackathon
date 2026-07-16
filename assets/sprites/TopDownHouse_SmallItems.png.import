@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://q0qssj7dhqib"
-path="res://.godot/imported/TopDownHouse_SmallItems.png-064d4566f68e612ce60872b73161ae30.ctex"
+path="res://.godot/imported/TopDownHouse_SmallItems.png-064d4566f68e612ce60872b73161ae30.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/TopDownHouse_SmallItems.png"
-dest_files=["res://.godot/imported/TopDownHouse_SmallItems.png-064d4566f68e612ce60872b73161ae30.ctex"]
+dest_files=["res://.godot/imported/TopDownHouse_SmallItems.png-064d4566f68e612ce60872b73161ae30.png"]
 
 [params]
 

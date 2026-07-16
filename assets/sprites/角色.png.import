@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bhyqkjs03fl55"
-path="res://.godot/imported/角色.png-ac8a75e20014101b9030b175e5f4b644.ctex"
+path="res://.godot/imported/角色.png-ac8a75e20014101b9030b175e5f4b644.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/角色.png"
-dest_files=["res://.godot/imported/角色.png-ac8a75e20014101b9030b175e5f4b644.ctex"]
+dest_files=["res://.godot/imported/角色.png-ac8a75e20014101b9030b175e5f4b644.png"]
 
 [params]
 

@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://b8joduxlluhsh"
-path="res://.godot/imported/TopDownHouse_FloorsAndWalls_OpenDoors_preview.png-e69a5a316c01a00a7cd0f236c2dd5156.ctex"
+path="res://.godot/imported/TopDownHouse_FloorsAndWalls_OpenDoors_preview.png-e69a5a316c01a00a7cd0f236c2dd5156.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/TopDownHouse_FloorsAndWalls_OpenDoors_preview.png"
-dest_files=["res://.godot/imported/TopDownHouse_FloorsAndWalls_OpenDoors_preview.png-e69a5a316c01a00a7cd0f236c2dd5156.ctex"]
+dest_files=["res://.godot/imported/TopDownHouse_FloorsAndWalls_OpenDoors_preview.png-e69a5a316c01a00a7cd0f236c2dd5156.png"]
 
 [params]
 

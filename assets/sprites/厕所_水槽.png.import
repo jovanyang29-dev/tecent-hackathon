@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://depuwe1o8ge3w"
-path="res://.godot/imported/厕所_水槽.png-95f48f482a8426fb993b697abfe0d388.ctex"
+path="res://.godot/imported/厕所_水槽.png-95f48f482a8426fb993b697abfe0d388.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/厕所_水槽.png"
-dest_files=["res://.godot/imported/厕所_水槽.png-95f48f482a8426fb993b697abfe0d388.ctex"]
+dest_files=["res://.godot/imported/厕所_水槽.png-95f48f482a8426fb993b697abfe0d388.png"]
 
 [params]
 

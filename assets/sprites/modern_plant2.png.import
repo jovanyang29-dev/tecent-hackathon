@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://ccfntmtcnlqub"
-path="res://.godot/imported/modern_plant2.png-4662a08323a1a9c878def85f87f33faa.ctex"
+path="res://.godot/imported/modern_plant2.png-4662a08323a1a9c878def85f87f33faa.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/modern_plant2.png"
-dest_files=["res://.godot/imported/modern_plant2.png-4662a08323a1a9c878def85f87f33faa.ctex"]
+dest_files=["res://.godot/imported/modern_plant2.png-4662a08323a1a9c878def85f87f33faa.png"]
 
 [params]
 

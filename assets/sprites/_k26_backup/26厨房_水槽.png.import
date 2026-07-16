@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://u6vtc1xfram4"
-path="res://.godot/imported/26厨房_水槽.png-703ada1c38087c5465448d0217b6b387.ctex"
+path="res://.godot/imported/26厨房_水槽.png-703ada1c38087c5465448d0217b6b387.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/_k26_backup/26厨房_水槽.png"
-dest_files=["res://.godot/imported/26厨房_水槽.png-703ada1c38087c5465448d0217b6b387.ctex"]
+dest_files=["res://.godot/imported/26厨房_水槽.png-703ada1c38087c5465448d0217b6b387.png"]
 
 [params]
 

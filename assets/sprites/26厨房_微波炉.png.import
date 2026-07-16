@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://c7c0rehr5pnx8"
-path="res://.godot/imported/26厨房_微波炉.png-891ab0add094621585c07590f4591eb1.ctex"
+path="res://.godot/imported/26厨房_微波炉.png-891ab0add094621585c07590f4591eb1.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/26厨房_微波炉.png"
-dest_files=["res://.godot/imported/26厨房_微波炉.png-891ab0add094621585c07590f4591eb1.ctex"]
+dest_files=["res://.godot/imported/26厨房_微波炉.png-891ab0add094621585c07590f4591eb1.png"]
 
 [params]
 

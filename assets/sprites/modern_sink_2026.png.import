@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://cehwjak0s2qpc"
-path="res://.godot/imported/modern_sink_2026.png-7f5683590f4702eb2ed29a41a0c7c7af.ctex"
+path="res://.godot/imported/modern_sink_2026.png-7f5683590f4702eb2ed29a41a0c7c7af.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/modern_sink_2026.png"
-dest_files=["res://.godot/imported/modern_sink_2026.png-7f5683590f4702eb2ed29a41a0c7c7af.ctex"]
+dest_files=["res://.godot/imported/modern_sink_2026.png-7f5683590f4702eb2ed29a41a0c7c7af.png"]
 
 [params]
 

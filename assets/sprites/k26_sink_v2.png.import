@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bp8esfhldt5ie"
-path="res://.godot/imported/k26_sink_v2.png-80c2ec914587cdfcf64eeb95994464be.ctex"
+path="res://.godot/imported/k26_sink_v2.png-80c2ec914587cdfcf64eeb95994464be.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/k26_sink_v2.png"
-dest_files=["res://.godot/imported/k26_sink_v2.png-80c2ec914587cdfcf64eeb95994464be.ctex"]
+dest_files=["res://.godot/imported/k26_sink_v2.png-80c2ec914587cdfcf64eeb95994464be.png"]
 
 [params]
 

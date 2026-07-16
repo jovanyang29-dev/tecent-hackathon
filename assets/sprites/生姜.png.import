@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dpgdasfsuuy13"
-path="res://.godot/imported/生姜.png-f596bd33f3860e913d3b18bcd72a14c5.ctex"
+path="res://.godot/imported/生姜.png-f596bd33f3860e913d3b18bcd72a14c5.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/生姜.png"
-dest_files=["res://.godot/imported/生姜.png-f596bd33f3860e913d3b18bcd72a14c5.ctex"]
+dest_files=["res://.godot/imported/生姜.png-f596bd33f3860e913d3b18bcd72a14c5.png"]
 
 [params]
 

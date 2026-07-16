@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dpmidnocvsgea"
-path="res://.godot/imported/茶几.png-10747c9e15ecabe15fe57f45cc74935c.ctex"
+path="res://.godot/imported/茶几.png-10747c9e15ecabe15fe57f45cc74935c.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/茶几.png"
-dest_files=["res://.godot/imported/茶几.png-10747c9e15ecabe15fe57f45cc74935c.ctex"]
+dest_files=["res://.godot/imported/茶几.png-10747c9e15ecabe15fe57f45cc74935c.png"]
 
 [params]
 

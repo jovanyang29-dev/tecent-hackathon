@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://4l1nhmymt27e"
-path="res://.godot/imported/猪肉馅.png-b868d0efaf442cf61b53b1d1ae2b31af.ctex"
+path="res://.godot/imported/猪肉馅.png-b868d0efaf442cf61b53b1d1ae2b31af.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/猪肉馅.png"
-dest_files=["res://.godot/imported/猪肉馅.png-b868d0efaf442cf61b53b1d1ae2b31af.ctex"]
+dest_files=["res://.godot/imported/猪肉馅.png-b868d0efaf442cf61b53b1d1ae2b31af.png"]
 
 [params]
 

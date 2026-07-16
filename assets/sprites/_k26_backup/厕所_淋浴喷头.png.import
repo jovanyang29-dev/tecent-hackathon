@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://c0dsfr1cek7wu"
-path="res://.godot/imported/厕所_淋浴喷头.png-b0e430ea3a9f512a05f7139cbdcf5846.ctex"
+path="res://.godot/imported/厕所_淋浴喷头.png-b0e430ea3a9f512a05f7139cbdcf5846.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/_k26_backup/厕所_淋浴喷头.png"
-dest_files=["res://.godot/imported/厕所_淋浴喷头.png-b0e430ea3a9f512a05f7139cbdcf5846.ctex"]
+dest_files=["res://.godot/imported/厕所_淋浴喷头.png-b0e430ea3a9f512a05f7139cbdcf5846.png"]
 
 [params]
 

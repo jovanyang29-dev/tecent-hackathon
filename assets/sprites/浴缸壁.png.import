@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://ca0ilxjbw5jvd"
-path="res://.godot/imported/浴缸壁.png-99bb8b1bb139c2b0f795db55421b83f0.ctex"
+path="res://.godot/imported/浴缸壁.png-99bb8b1bb139c2b0f795db55421b83f0.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/浴缸壁.png"
-dest_files=["res://.godot/imported/浴缸壁.png-99bb8b1bb139c2b0f795db55421b83f0.ctex"]
+dest_files=["res://.godot/imported/浴缸壁.png-99bb8b1bb139c2b0f795db55421b83f0.png"]
 
 [params]
 

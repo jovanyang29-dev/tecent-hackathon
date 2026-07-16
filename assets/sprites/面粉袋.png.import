@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://b7ti4fhcoj0kk"
-path="res://.godot/imported/面粉袋.png-d60254f1823bbf89cb69eb461c1a7b05.ctex"
+path="res://.godot/imported/面粉袋.png-d60254f1823bbf89cb69eb461c1a7b05.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/面粉袋.png"
-dest_files=["res://.godot/imported/面粉袋.png-d60254f1823bbf89cb69eb461c1a7b05.ctex"]
+dest_files=["res://.godot/imported/面粉袋.png-d60254f1823bbf89cb69eb461c1a7b05.png"]
 
 [params]
 

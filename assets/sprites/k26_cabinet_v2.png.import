@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://c4tvqaofs5ofr"
-path="res://.godot/imported/k26_cabinet_v2.png-61cc3d487d4dd8383a59de38e054616f.ctex"
+path="res://.godot/imported/k26_cabinet_v2.png-61cc3d487d4dd8383a59de38e054616f.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/k26_cabinet_v2.png"
-dest_files=["res://.godot/imported/k26_cabinet_v2.png-61cc3d487d4dd8383a59de38e054616f.ctex"]
+dest_files=["res://.godot/imported/k26_cabinet_v2.png-61cc3d487d4dd8383a59de38e054616f.png"]
 
 [params]
 

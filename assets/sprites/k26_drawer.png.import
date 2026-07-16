@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://cyq65lnlk5coo"
-path="res://.godot/imported/k26_drawer.png-ba938f859768f33912db4984dc642a00.ctex"
+path="res://.godot/imported/k26_drawer.png-ba938f859768f33912db4984dc642a00.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/k26_drawer.png"
-dest_files=["res://.godot/imported/k26_drawer.png-ba938f859768f33912db4984dc642a00.ctex"]
+dest_files=["res://.godot/imported/k26_drawer.png-ba938f859768f33912db4984dc642a00.png"]
 
 [params]
 

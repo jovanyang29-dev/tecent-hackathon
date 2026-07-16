@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://nyc3wduifwxs"
-path="res://.godot/imported/icon.svg-00a55f41757400f7387d4069be498893.ctex"
+path="res://.godot/imported/icon.svg-00a55f41757400f7387d4069be498893.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/icon.svg"
-dest_files=["res://.godot/imported/icon.svg-00a55f41757400f7387d4069be498893.ctex"]
+dest_files=["res://.godot/imported/icon.svg-00a55f41757400f7387d4069be498893.png"]
 
 [params]
 

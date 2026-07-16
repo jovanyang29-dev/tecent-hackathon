@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://81dqjqm46lvf"
-path="res://.godot/imported/锅壁.png-3e844347aa13f42d0599c1adc27a6c8e.ctex"
+path="res://.godot/imported/锅壁.png-3e844347aa13f42d0599c1adc27a6c8e.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/锅壁.png"
-dest_files=["res://.godot/imported/锅壁.png-3e844347aa13f42d0599c1adc27a6c8e.ctex"]
+dest_files=["res://.godot/imported/锅壁.png-3e844347aa13f42d0599c1adc27a6c8e.png"]
 
 [params]
 

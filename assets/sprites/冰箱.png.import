@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://df0g2cw4131ws"
-path="res://.godot/imported/冰箱.png-5d901e6de9f30209db12b1df8a64209d.ctex"
+path="res://.godot/imported/冰箱.png-5d901e6de9f30209db12b1df8a64209d.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/冰箱.png"
-dest_files=["res://.godot/imported/冰箱.png-5d901e6de9f30209db12b1df8a64209d.ctex"]
+dest_files=["res://.godot/imported/冰箱.png-5d901e6de9f30209db12b1df8a64209d.png"]
 
 [params]
 

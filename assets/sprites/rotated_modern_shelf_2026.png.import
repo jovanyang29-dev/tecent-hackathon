@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://sswgwvk3jry3"
-path="res://.godot/imported/rotated_modern_shelf_2026.png-47ce738f079e95726d1702192b52132c.ctex"
+path="res://.godot/imported/rotated_modern_shelf_2026.png-47ce738f079e95726d1702192b52132c.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/rotated_modern_shelf_2026.png"
-dest_files=["res://.godot/imported/rotated_modern_shelf_2026.png-47ce738f079e95726d1702192b52132c.ctex"]
+dest_files=["res://.godot/imported/rotated_modern_shelf_2026.png-47ce738f079e95726d1702192b52132c.png"]
 
 [params]
 

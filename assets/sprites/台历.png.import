@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://cskd3vrscqgtf"
-path="res://.godot/imported/台历.png-66d019a365dd91c95b659cf39801faa3.ctex"
+path="res://.godot/imported/台历.png-66d019a365dd91c95b659cf39801faa3.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/台历.png"
-dest_files=["res://.godot/imported/台历.png-66d019a365dd91c95b659cf39801faa3.ctex"]
+dest_files=["res://.godot/imported/台历.png-66d019a365dd91c95b659cf39801faa3.png"]
 
 [params]
 

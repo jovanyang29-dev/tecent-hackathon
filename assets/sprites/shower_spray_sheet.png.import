@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://mbymevocledj"
-path="res://.godot/imported/shower_spray_sheet.png-33fabea3027288e534b104de52d01857.ctex"
+path="res://.godot/imported/shower_spray_sheet.png-33fabea3027288e534b104de52d01857.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/shower_spray_sheet.png"
-dest_files=["res://.godot/imported/shower_spray_sheet.png-33fabea3027288e534b104de52d01857.ctex"]
+dest_files=["res://.godot/imported/shower_spray_sheet.png-33fabea3027288e534b104de52d01857.png"]
 
 [params]
 

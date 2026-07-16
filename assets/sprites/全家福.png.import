@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://cqgltutrdc88n"
-path="res://.godot/imported/全家福.png-1ab8aa5857eef61480bda9377b30792a.ctex"
+path="res://.godot/imported/全家福.png-1ab8aa5857eef61480bda9377b30792a.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/全家福.png"
-dest_files=["res://.godot/imported/全家福.png-1ab8aa5857eef61480bda9377b30792a.ctex"]
+dest_files=["res://.godot/imported/全家福.png-1ab8aa5857eef61480bda9377b30792a.png"]
 
 [params]
 

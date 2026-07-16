@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://d3bld2fux8ll0"
-path="res://.godot/imported/厨具架.png-aea7465e75810b3d23b5103380923090.ctex"
+path="res://.godot/imported/厨具架.png-aea7465e75810b3d23b5103380923090.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/厨具架.png"
-dest_files=["res://.godot/imported/厨具架.png-aea7465e75810b3d23b5103380923090.ctex"]
+dest_files=["res://.godot/imported/厨具架.png-aea7465e75810b3d23b5103380923090.png"]
 
 [params]
 

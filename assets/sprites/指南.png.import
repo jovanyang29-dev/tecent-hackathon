@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://ywej2jp4pqxu"
-path="res://.godot/imported/指南.png-7361cfdfc51f337431e531d84c1dbc80.ctex"
+path="res://.godot/imported/指南.png-7361cfdfc51f337431e531d84c1dbc80.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/指南.png"
-dest_files=["res://.godot/imported/指南.png-7361cfdfc51f337431e531d84c1dbc80.ctex"]
+dest_files=["res://.godot/imported/指南.png-7361cfdfc51f337431e531d84c1dbc80.png"]
 
 [params]
 

@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bpl2kqsjwrqqk"
-path="res://.godot/imported/kitchen_clock.png-f92ba1564203b0d858e4a3a85a0eee9f.ctex"
+path="res://.godot/imported/kitchen_clock.png-f92ba1564203b0d858e4a3a85a0eee9f.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/kitchen_clock.png"
-dest_files=["res://.godot/imported/kitchen_clock.png-f92ba1564203b0d858e4a3a85a0eee9f.ctex"]
+dest_files=["res://.godot/imported/kitchen_clock.png-f92ba1564203b0d858e4a3a85a0eee9f.png"]
 
 [params]
 

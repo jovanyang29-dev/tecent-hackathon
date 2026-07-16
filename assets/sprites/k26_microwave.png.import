@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://cnqj32ce6w4n6"
-path="res://.godot/imported/k26_microwave.png-4c22df5b06449e9e3c88881c005d724b.ctex"
+path="res://.godot/imported/k26_microwave.png-4c22df5b06449e9e3c88881c005d724b.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/k26_microwave.png"
-dest_files=["res://.godot/imported/k26_microwave.png-4c22df5b06449e9e3c88881c005d724b.ctex"]
+dest_files=["res://.godot/imported/k26_microwave.png-4c22df5b06449e9e3c88881c005d724b.png"]
 
 [params]
 

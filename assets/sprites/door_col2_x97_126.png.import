@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://c5jwsga8s8g5h"
-path="res://.godot/imported/door_col2_x97_126.png-330a2c6ce09e84a2fc25be7fec6c4cb3.ctex"
+path="res://.godot/imported/door_col2_x97_126.png-330a2c6ce09e84a2fc25be7fec6c4cb3.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/door_col2_x97_126.png"
-dest_files=["res://.godot/imported/door_col2_x97_126.png-330a2c6ce09e84a2fc25be7fec6c4cb3.ctex"]
+dest_files=["res://.godot/imported/door_col2_x97_126.png-330a2c6ce09e84a2fc25be7fec6c4cb3.png"]
 
 [params]
 

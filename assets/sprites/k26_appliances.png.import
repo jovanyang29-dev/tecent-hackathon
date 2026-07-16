@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://1kvbpn7e8w3k"
-path="res://.godot/imported/k26_appliances.png-2e8cea7c4efc35996105519e7e706aec.ctex"
+path="res://.godot/imported/k26_appliances.png-2e8cea7c4efc35996105519e7e706aec.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/k26_appliances.png"
-dest_files=["res://.godot/imported/k26_appliances.png-2e8cea7c4efc35996105519e7e706aec.ctex"]
+dest_files=["res://.godot/imported/k26_appliances.png-2e8cea7c4efc35996105519e7e706aec.png"]
 
 [params]
 

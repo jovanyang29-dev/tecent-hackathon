@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://5b0kpdplqyom"
-path="res://.godot/imported/sheet_preview.png-56ab5331cce9ed11add39dedf0074264.ctex"
+path="res://.godot/imported/sheet_preview.png-56ab5331cce9ed11add39dedf0074264.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/sheet_preview.png"
-dest_files=["res://.godot/imported/sheet_preview.png-56ab5331cce9ed11add39dedf0074264.ctex"]
+dest_files=["res://.godot/imported/sheet_preview.png-56ab5331cce9ed11add39dedf0074264.png"]
 
 [params]
 

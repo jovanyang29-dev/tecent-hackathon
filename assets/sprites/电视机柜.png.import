@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dv0svkc6c5vmm"
-path="res://.godot/imported/电视机柜.png-199605719bb0a8989c4308cb7e9bda47.ctex"
+path="res://.godot/imported/电视机柜.png-199605719bb0a8989c4308cb7e9bda47.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/电视机柜.png"
-dest_files=["res://.godot/imported/电视机柜.png-199605719bb0a8989c4308cb7e9bda47.ctex"]
+dest_files=["res://.godot/imported/电视机柜.png-199605719bb0a8989c4308cb7e9bda47.png"]
 
 [params]
 

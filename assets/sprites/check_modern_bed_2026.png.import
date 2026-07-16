@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://r8eeftd26vdr"
-path="res://.godot/imported/check_modern_bed_2026.png-2fab28af2f9ef03275df1b8fcb8328e5.ctex"
+path="res://.godot/imported/check_modern_bed_2026.png-2fab28af2f9ef03275df1b8fcb8328e5.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/check_modern_bed_2026.png"
-dest_files=["res://.godot/imported/check_modern_bed_2026.png-2fab28af2f9ef03275df1b8fcb8328e5.ctex"]
+dest_files=["res://.godot/imported/check_modern_bed_2026.png-2fab28af2f9ef03275df1b8fcb8328e5.png"]
 
 [params]
 

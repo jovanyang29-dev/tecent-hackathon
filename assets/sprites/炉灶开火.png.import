@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://v6703mfi44ny"
-path="res://.godot/imported/炉灶开火.png-eacc65019ddea52ab393b8282de1c72f.ctex"
+path="res://.godot/imported/炉灶开火.png-eacc65019ddea52ab393b8282de1c72f.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/炉灶开火.png"
-dest_files=["res://.godot/imported/炉灶开火.png-eacc65019ddea52ab393b8282de1c72f.ctex"]
+dest_files=["res://.godot/imported/炉灶开火.png-eacc65019ddea52ab393b8282de1c72f.png"]
 
 [params]
 

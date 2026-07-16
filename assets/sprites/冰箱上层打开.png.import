@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://cyel2w2srivel"
-path="res://.godot/imported/冰箱上层打开.png-80256c520e0753ca4b86e485cfa1fa7c.ctex"
+path="res://.godot/imported/冰箱上层打开.png-80256c520e0753ca4b86e485cfa1fa7c.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/冰箱上层打开.png"
-dest_files=["res://.godot/imported/冰箱上层打开.png-80256c520e0753ca4b86e485cfa1fa7c.ctex"]
+dest_files=["res://.godot/imported/冰箱上层打开.png-80256c520e0753ca4b86e485cfa1fa7c.png"]
 
 [params]
 

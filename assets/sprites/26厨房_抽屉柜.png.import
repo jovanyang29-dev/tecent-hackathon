@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://btvoj7jdu84n6"
-path="res://.godot/imported/26厨房_抽屉柜.png-95722b8e7a5379efb772d0e4f178ff35.ctex"
+path="res://.godot/imported/26厨房_抽屉柜.png-95722b8e7a5379efb772d0e4f178ff35.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/26厨房_抽屉柜.png"
-dest_files=["res://.godot/imported/26厨房_抽屉柜.png-95722b8e7a5379efb772d0e4f178ff35.ctex"]
+dest_files=["res://.godot/imported/26厨房_抽屉柜.png-95722b8e7a5379efb772d0e4f178ff35.png"]
 
 [params]
 

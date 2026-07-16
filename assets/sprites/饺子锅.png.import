@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dnrlxncm4m4u1"
-path="res://.godot/imported/饺子锅.png-d1f630d9e0b44f723e4f2caf6e0471b7.ctex"
+path="res://.godot/imported/饺子锅.png-d1f630d9e0b44f723e4f2caf6e0471b7.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/饺子锅.png"
-dest_files=["res://.godot/imported/饺子锅.png-d1f630d9e0b44f723e4f2caf6e0471b7.ctex"]
+dest_files=["res://.godot/imported/饺子锅.png-d1f630d9e0b44f723e4f2caf6e0471b7.png"]
 
 [params]
 

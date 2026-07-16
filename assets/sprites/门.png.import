@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://bwr84bhubi20f"
-path="res://.godot/imported/门.png-09a056a62d84c58d39f1c48bbf924f56.ctex"
+path="res://.godot/imported/门.png-09a056a62d84c58d39f1c48bbf924f56.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/门.png"
-dest_files=["res://.godot/imported/门.png-09a056a62d84c58d39f1c48bbf924f56.ctex"]
+dest_files=["res://.godot/imported/门.png-09a056a62d84c58d39f1c48bbf924f56.png"]
 
 [params]
 

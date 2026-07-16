@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dcumg8ilfhd7s"
-path="res://.godot/imported/韭菜袋子.png-89625bd707c895ceedb0bbe3f1279ffe.ctex"
+path="res://.godot/imported/韭菜袋子.png-89625bd707c895ceedb0bbe3f1279ffe.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/韭菜袋子.png"
-dest_files=["res://.godot/imported/韭菜袋子.png-89625bd707c895ceedb0bbe3f1279ffe.ctex"]
+dest_files=["res://.godot/imported/韭菜袋子.png-89625bd707c895ceedb0bbe3f1279ffe.png"]
 
 [params]
 

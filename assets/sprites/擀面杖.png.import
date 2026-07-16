@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://shuxpbolqwdw"
-path="res://.godot/imported/擀面杖.png-68321396ee438aef7c52f0c8b8cc1ece.ctex"
+path="res://.godot/imported/擀面杖.png-68321396ee438aef7c52f0c8b8cc1ece.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/擀面杖.png"
-dest_files=["res://.godot/imported/擀面杖.png-68321396ee438aef7c52f0c8b8cc1ece.ctex"]
+dest_files=["res://.godot/imported/擀面杖.png-68321396ee438aef7c52f0c8b8cc1ece.png"]
 
 [params]
 

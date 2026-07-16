@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dgk4ag6tpocxg"
-path="res://.godot/imported/kitchen_plate.png-97c6466d9fb0a4e6e9a8aa41bf620be9.ctex"
+path="res://.godot/imported/kitchen_plate.png-97c6466d9fb0a4e6e9a8aa41bf620be9.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/kitchen_plate.png"
-dest_files=["res://.godot/imported/kitchen_plate.png-97c6466d9fb0a4e6e9a8aa41bf620be9.ctex"]
+dest_files=["res://.godot/imported/kitchen_plate.png-97c6466d9fb0a4e6e9a8aa41bf620be9.png"]
 
 [params]
 

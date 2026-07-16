@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://mw7x1vw6fn3"
-path="res://.godot/imported/check_modern_shelf_2026.png-e303adc77d276779c14db8ac44e39b8e.ctex"
+path="res://.godot/imported/check_modern_shelf_2026.png-e303adc77d276779c14db8ac44e39b8e.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/check_modern_shelf_2026.png"
-dest_files=["res://.godot/imported/check_modern_shelf_2026.png-e303adc77d276779c14db8ac44e39b8e.ctex"]
+dest_files=["res://.godot/imported/check_modern_shelf_2026.png-e303adc77d276779c14db8ac44e39b8e.png"]
 
 [params]
 

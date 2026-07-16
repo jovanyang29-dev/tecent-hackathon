@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://cu2qglv7cps11"
-path="res://.godot/imported/modern_sofa.png-da637a08e6d508b0ecb66fded16a8374.ctex"
+path="res://.godot/imported/modern_sofa.png-da637a08e6d508b0ecb66fded16a8374.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/modern_sofa.png"
-dest_files=["res://.godot/imported/modern_sofa.png-da637a08e6d508b0ecb66fded16a8374.ctex"]
+dest_files=["res://.godot/imported/modern_sofa.png-da637a08e6d508b0ecb66fded16a8374.png"]
 
 [params]
 

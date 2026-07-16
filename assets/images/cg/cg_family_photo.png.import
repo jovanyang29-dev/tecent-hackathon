@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://iw3amcgoqqxn"
-path="res://.godot/imported/cg_family_photo.png-12b64723c4cd1bafa4d7329de4d31485.ctex"
+path="res://.godot/imported/cg_family_photo.png-12b64723c4cd1bafa4d7329de4d31485.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/images/cg/cg_family_photo.png"
-dest_files=["res://.godot/imported/cg_family_photo.png-12b64723c4cd1bafa4d7329de4d31485.ctex"]
+dest_files=["res://.godot/imported/cg_family_photo.png-12b64723c4cd1bafa4d7329de4d31485.png"]
 
 [params]
 

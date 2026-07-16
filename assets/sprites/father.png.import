@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://du5nuqoomfrcx"
-path="res://.godot/imported/father.png-9af34a53871ced5fdd0dd285e43d229e.ctex"
+path="res://.godot/imported/father.png-9af34a53871ced5fdd0dd285e43d229e.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/father.png"
-dest_files=["res://.godot/imported/father.png-9af34a53871ced5fdd0dd285e43d229e.ctex"]
+dest_files=["res://.godot/imported/father.png-9af34a53871ced5fdd0dd285e43d229e.png"]
 
 [params]
 

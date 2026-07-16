@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://d2mnclkf3p2rl"
-path="res://.godot/imported/kitchen_crate.png-706580cad3697db8ec920a05322c40ee.ctex"
+path="res://.godot/imported/kitchen_crate.png-706580cad3697db8ec920a05322c40ee.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/kitchen_crate.png"
-dest_files=["res://.godot/imported/kitchen_crate.png-706580cad3697db8ec920a05322c40ee.ctex"]
+dest_files=["res://.godot/imported/kitchen_crate.png-706580cad3697db8ec920a05322c40ee.png"]
 
 [params]
 

@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://rau2letsrv1d"
-path="res://.godot/imported/背包图标.png-f671ab154a3f44dc61677ae596a48b49.ctex"
+path="res://.godot/imported/背包图标.png-f671ab154a3f44dc61677ae596a48b49.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/背包图标.png"
-dest_files=["res://.godot/imported/背包图标.png-f671ab154a3f44dc61677ae596a48b49.ctex"]
+dest_files=["res://.godot/imported/背包图标.png-f671ab154a3f44dc61677ae596a48b49.png"]
 
 [params]
 

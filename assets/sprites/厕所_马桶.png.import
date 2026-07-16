@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://f4m22jcuxe23"
-path="res://.godot/imported/厕所_马桶.png-caed4fa115922d1e3db3a2cde95b0782.ctex"
+path="res://.godot/imported/厕所_马桶.png-caed4fa115922d1e3db3a2cde95b0782.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/厕所_马桶.png"
-dest_files=["res://.godot/imported/厕所_马桶.png-caed4fa115922d1e3db3a2cde95b0782.ctex"]
+dest_files=["res://.godot/imported/厕所_马桶.png-caed4fa115922d1e3db3a2cde95b0782.png"]
 
 [params]
 

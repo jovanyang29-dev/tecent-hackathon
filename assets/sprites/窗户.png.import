@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://c0q4rc2rbairy"
-path="res://.godot/imported/窗户.png-f0e573aaa187a56ccb8e79415627be8c.ctex"
+path="res://.godot/imported/窗户.png-f0e573aaa187a56ccb8e79415627be8c.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/窗户.png"
-dest_files=["res://.godot/imported/窗户.png-f0e573aaa187a56ccb8e79415627be8c.ctex"]
+dest_files=["res://.godot/imported/窗户.png-f0e573aaa187a56ccb8e79415627be8c.png"]
 
 [params]
 

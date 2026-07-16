@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://d25dfn1rqmem8"
-path="res://.godot/imported/wall_crack.png-44ed3eb198c41d18bcd273d3d6ccbd26.ctex"
+path="res://.godot/imported/wall_crack.png-44ed3eb198c41d18bcd273d3d6ccbd26.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/wall_crack.png"
-dest_files=["res://.godot/imported/wall_crack.png-44ed3eb198c41d18bcd273d3d6ccbd26.ctex"]
+dest_files=["res://.godot/imported/wall_crack.png-44ed3eb198c41d18bcd273d3d6ccbd26.png"]
 
 [params]
 

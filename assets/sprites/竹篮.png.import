@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://vts1xp34al7r"
-path="res://.godot/imported/竹篮.png-c43aa9f6317679b96002ef1cd7fbe0c5.ctex"
+path="res://.godot/imported/竹篮.png-c43aa9f6317679b96002ef1cd7fbe0c5.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/竹篮.png"
-dest_files=["res://.godot/imported/竹篮.png-c43aa9f6317679b96002ef1cd7fbe0c5.ctex"]
+dest_files=["res://.godot/imported/竹篮.png-c43aa9f6317679b96002ef1cd7fbe0c5.png"]
 
 [params]
 

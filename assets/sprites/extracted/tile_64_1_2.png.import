@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://yj8skpxu3xhu"
-path="res://.godot/imported/tile_64_1_2.png-316b350241c401c990c21ef5d3ac9947.ctex"
+path="res://.godot/imported/tile_64_1_2.png-316b350241c401c990c21ef5d3ac9947.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/extracted/tile_64_1_2.png"
-dest_files=["res://.godot/imported/tile_64_1_2.png-316b350241c401c990c21ef5d3ac9947.ctex"]
+dest_files=["res://.godot/imported/tile_64_1_2.png-316b350241c401c990c21ef5d3ac9947.png"]
 
 [params]
 

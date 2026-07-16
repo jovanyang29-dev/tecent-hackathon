@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://disswnt1qqnih"
-path="res://.godot/imported/TopDownHouse_FurnitureState1.png-dd627abae38e7471dbb1ab0443261ccc.ctex"
+path="res://.godot/imported/TopDownHouse_FurnitureState1.png-dd627abae38e7471dbb1ab0443261ccc.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/TopDownHouse_FurnitureState1.png"
-dest_files=["res://.godot/imported/TopDownHouse_FurnitureState1.png-dd627abae38e7471dbb1ab0443261ccc.ctex"]
+dest_files=["res://.godot/imported/TopDownHouse_FurnitureState1.png-dd627abae38e7471dbb1ab0443261ccc.png"]
 
 [params]
 

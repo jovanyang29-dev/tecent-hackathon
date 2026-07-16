@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dyc5tdooovaiw"
-path="res://.godot/imported/26厨房_小家电.png-108b41df13b35f47bde03faf904f9aa0.ctex"
+path="res://.godot/imported/26厨房_小家电.png-108b41df13b35f47bde03faf904f9aa0.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/sprites/26厨房_小家电.png"
-dest_files=["res://.godot/imported/26厨房_小家电.png-108b41df13b35f47bde03faf904f9aa0.ctex"]
+dest_files=["res://.godot/imported/26厨房_小家电.png-108b41df13b35f47bde03faf904f9aa0.png"]
 
 [params]
 

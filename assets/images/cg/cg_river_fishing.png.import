@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://pbuapk1l3gb2"
-path="res://.godot/imported/cg_river_fishing.png-e675bee69106151fbd6656e19583b6be.ctex"
+path="res://.godot/imported/cg_river_fishing.png-e675bee69106151fbd6656e19583b6be.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/images/cg/cg_river_fishing.png"
-dest_files=["res://.godot/imported/cg_river_fishing.png-e675bee69106151fbd6656e19583b6be.ctex"]
+dest_files=["res://.godot/imported/cg_river_fishing.png-e675bee69106151fbd6656e19583b6be.png"]
 
 [params]
 

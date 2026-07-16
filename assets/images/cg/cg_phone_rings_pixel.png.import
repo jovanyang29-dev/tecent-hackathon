@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="CompressedTexture2D"
+type="ImageTexture"
 uid="uid://dytf6ay41wysa"
-path="res://.godot/imported/cg_phone_rings_pixel.png-ff6bf257ffdbaf82599e09fe290adef4.ctex"
+path="res://.godot/imported/cg_phone_rings_pixel.png-ff6bf257ffdbaf82599e09fe290adef4.png"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://assets/images/cg/cg_phone_rings_pixel.png"
-dest_files=["res://.godot/imported/cg_phone_rings_pixel.png-ff6bf257ffdbaf82599e09fe290adef4.ctex"]
+dest_files=["res://.godot/imported/cg_phone_rings_pixel.png-ff6bf257ffdbaf82599e09fe290adef4.png"]
 
 [params]
 
