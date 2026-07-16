@@ -270,7 +270,7 @@ func _on_inventory_changed(_items: Array[String]) -> void:
 		return
 	if GameState.has_item("remote_control"):
 		var tex := load("res://assets/sprites/遥控器.png")
-		if img != null:
+		if tex != null:
 			_held_sprite.texture = tex
 			_held_sprite.visible = true
 	else:

@@ -199,8 +199,8 @@ func close() -> void:
 			player.unlock_movement()
 
 
-	func _load_texture(path: String) -> Texture2D:
-		return load(path)
+func _load_texture(path: String) -> Texture2D:
+	return load(path)
 
 
 func _make_dumpling_sprite() -> TextureRect:

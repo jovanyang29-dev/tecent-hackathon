@@ -90,9 +90,6 @@ open_inventory={
 ]
 }
 
-[gui]
-
-theme/custom="res://theme.tres"
 
 [rendering]
 

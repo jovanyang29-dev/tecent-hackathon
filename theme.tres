@@ -1,7 +1,0 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cjw7ph3dsoy8p"]
-
-[ext_resource type="FontFile" uid="uid://bkdssja4ioti0" path="res://assets/fonts/NotoSansSC-subset.ttf" id="1_cjk"]
-
-[resource]
-default_font = ExtResource("1_cjk")
-default_font_size = 14
