@@ -55,9 +55,9 @@ func _ready() -> void:
 
 	for item_id in ITEM_ICONS:
 		var path: String = ITEM_ICONS[item_id]
-		var img := Image.load_from_file(path)
-		if img != null:
-			_cached_textures[item_id] = ImageTexture.create_from_image(img)
+		var tex := load(path)
+		if tex != null:
+			_cached_textures[item_id] = tex
 
 	GameState.inventory_changed.connect(_on_inventory_changed)
 

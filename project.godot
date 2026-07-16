@@ -90,6 +90,10 @@ open_inventory={
 ]
 }
 
+[gui]
+
+theme/custom="res://theme.tres"
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0

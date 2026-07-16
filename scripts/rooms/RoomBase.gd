@@ -515,17 +515,17 @@ func _build_furniture() -> void:
 				_basket_sprite = child
 				# 白菜已被拾取时，进入厨房应直接显示空篮
 				if GameState.has_flag("got_cabbage"):
-					var empty_img: Image = Image.load_from_file("res://assets/sprites/竹篮.png")
+					var empty_img: Image = load("res://assets/sprites/竹篮.png").get_image()
 					if empty_img != null:
 						child.texture = ImageTexture.create_from_image(empty_img)
 			elif child.name == "tv_cabinet":
 				_tv_cabinet_sprite = child
 				if child.texture == null:
-					var img: Image = Image.load_from_file("res://assets/sprites/电视机柜.png")
+					var img: Image = load("res://assets/sprites/电视机柜.png").get_image()
 					if img != null:
 						child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "coffee_table" and child.texture == null:
-				var img: Image = Image.load_from_file("res://assets/sprites/茶几.png")
+				var img: Image = load("res://assets/sprites/茶几.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "side_table":
@@ -535,27 +535,27 @@ func _build_furniture() -> void:
 					if sh != null:
 						child.texture = _compose_tiles(sh, 11, 0, 1, 2, 3)
 			elif child.name == "bed" and child.texture == null:
-				var img: Image = Image.load_from_file("res://assets/sprites/卧室_床.png")
+				var img: Image = load("res://assets/sprites/卧室_床.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "wardrobe" and child.texture == null:
-				var img: Image = Image.load_from_file("res://assets/sprites/卧室_衣柜.png")
+				var img: Image = load("res://assets/sprites/卧室_衣柜.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "nightstand" and child.texture == null:
-				var img: Image = Image.load_from_file("res://assets/sprites/卧室_床头柜.png")
+				var img: Image = load("res://assets/sprites/卧室_床头柜.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "toilet" and child.texture == null:
-				var img: Image = Image.load_from_file("res://assets/sprites/厕所_马桶.png")
+				var img: Image = load("res://assets/sprites/厕所_马桶.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "sink" and child.texture == null:
-				var img: Image = Image.load_from_file("res://assets/sprites/厕所_水槽.png")
+				var img: Image = load("res://assets/sprites/厕所_水槽.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "bathtub" and child.texture == null:
-				var img: Image = Image.load_from_file("res://assets/sprites/厕所_浴缸.png")
+				var img: Image = load("res://assets/sprites/厕所_浴缸.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 			elif child.name == "refrigerator":
@@ -573,42 +573,42 @@ func _build_furniture() -> void:
 					child.visible = false
 			# ── 2026厨房家具：无条件直接加载纹理 ──
 			elif child.name == "k26_upper_cabinet":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_吊柜.png")
+				var img: Image = load("res://assets/sprites/26厨房_吊柜.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
 			elif child.name == "k26_drawer":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_抽屉柜.png")
+				var img: Image = load("res://assets/sprites/26厨房_抽屉柜.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
 			elif child.name == "k26_appliances":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_小家电.png")
+				var img: Image = load("res://assets/sprites/26厨房_小家电.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
 			elif child.name == "k26_microwave":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_微波炉.png")
+				var img: Image = load("res://assets/sprites/26厨房_微波炉.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
 			elif child.name == "k26_tools":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_厨具.png")
+				var img: Image = load("res://assets/sprites/26厨房_厨具.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
 			elif child.name == "k26_stove":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_灶台.png")
+				var img: Image = load("res://assets/sprites/26厨房_灶台.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
 			elif child.name == "k26_sink":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_水槽.png")
+				var img: Image = load("res://assets/sprites/26厨房_水槽.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
 			elif child.name == "k26_dishwasher":
-				var img: Image = Image.load_from_file("res://assets/sprites/26厨房_洗碗机.png")
+				var img: Image = load("res://assets/sprites/26厨房_洗碗机.png").get_image()
 				if img != null:
 					child.texture = ImageTexture.create_from_image(img)
 					child.visible = true
@@ -676,82 +676,82 @@ func _build_furniture() -> void:
 
 		# TV cabinet: standalone PNG, resize to 40×160
 		if fname == "tv_cabinet":
-			var img: Image = Image.load_from_file("res://assets/sprites/电视机柜.png")
+			var img: Image = load("res://assets/sprites/电视机柜.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Coffee table: standalone PNG
 		elif fname == "coffee_table":
-			var img: Image = Image.load_from_file("res://assets/sprites/茶几.png")
+			var img: Image = load("res://assets/sprites/茶几.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Modern TV stand (room 2026)
 		elif fname == "modern_tvstand":
-			var img: Image = Image.load_from_file("res://assets/sprites/modern_tvstand.png")
+			var img: Image = load("res://assets/sprites/modern_tvstand.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Modern sofa (room 2026) - blue
 		elif fname == "modern_sofa":
-			var img: Image = Image.load_from_file("res://assets/sprites/modern_sofa.png")
+			var img: Image = load("res://assets/sprites/modern_sofa.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Modern dining table (room 2026)
 		elif fname == "modern_dining_table":
-			var img: Image = Image.load_from_file("res://assets/sprites/modern_dining_table.png")
+			var img: Image = load("res://assets/sprites/modern_dining_table.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Modern cabinet with plant (room 2026)
 		elif fname == "modern_cabinet":
-			var img: Image = Image.load_from_file("res://assets/sprites/modern_cabinet.png")
+			var img: Image = load("res://assets/sprites/modern_cabinet.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Modern plant (room 2026)
 		elif fname == "modern_plant":
-			var img: Image = Image.load_from_file("res://assets/sprites/modern_plant.png")
+			var img: Image = load("res://assets/sprites/modern_plant.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Modern shoe rack (room 2026)
 		elif fname == "modern_shoe_rack":
-			var img: Image = Image.load_from_file("res://assets/sprites/modern_shoe_rack.png")
+			var img: Image = load("res://assets/sprites/modern_shoe_rack.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Stove: standalone PNG (kitchen) — scaled 4x smaller
 		elif fname == "stove":
-			var img: Image = Image.load_from_file("res://assets/sprites/炉灶.png")
+			var img: Image = load("res://assets/sprites/炉灶.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Refrigerator: standalone PNG (kitchen) — scaled 4x smaller
 		elif fname == "refrigerator":
-			var img: Image = Image.load_from_file("res://assets/sprites/冰箱.png")
+			var img: Image = load("res://assets/sprites/冰箱.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Food soup on stove
 		elif fname == "food_soup":
-			var img: Image = Image.load_from_file("res://assets/sprites/food_top.png")
+			var img: Image = load("res://assets/sprites/food_top.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Food fried egg on stove
 		elif fname == "food_egg":
-			var img: Image = Image.load_from_file("res://assets/sprites/food_bottom.png")
+			var img: Image = load("res://assets/sprites/food_bottom.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Kitchen cabinet (from SmallItems sprite sheet)
 		elif fname == "cabinet":
-			var img: Image = Image.load_from_file("res://assets/sprites/kitchen_cabinet.png")
+			var img: Image = load("res://assets/sprites/kitchen_cabinet.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Kitchen crate (from SmallItems sprite sheet)
 		elif fname == "crate":
-			var img: Image = Image.load_from_file("res://assets/sprites/kitchen_crate.png")
+			var img: Image = load("res://assets/sprites/kitchen_crate.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Kitchen clock (from SmallItems sprite sheet)
 		elif fname == "clock":
-			var img: Image = Image.load_from_file("res://assets/sprites/kitchen_clock.png")
+			var img: Image = load("res://assets/sprites/kitchen_clock.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Kitchen plate (from SmallItems sprite sheet)
 		elif fname == "plate":
-			var img: Image = Image.load_from_file("res://assets/sprites/kitchen_plate.png")
+			var img: Image = load("res://assets/sprites/kitchen_plate.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Side table: Furn1 tiles (11,0) + (11,1) = 1w×2h
@@ -761,32 +761,32 @@ func _build_furniture() -> void:
 				tex = _compose_tiles(sheet, 11, 0, 1, 2, 3)
 		# Bed: standalone PNG
 		elif fname == "bed":
-			var img: Image = Image.load_from_file("res://assets/sprites/卧室_床.png")
+			var img: Image = load("res://assets/sprites/卧室_床.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Wardrobe: standalone PNG
 		elif fname == "wardrobe":
-			var img: Image = Image.load_from_file("res://assets/sprites/卧室_衣柜.png")
+			var img: Image = load("res://assets/sprites/卧室_衣柜.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Nightstand: standalone PNG
 		elif fname == "nightstand":
-			var img: Image = Image.load_from_file("res://assets/sprites/卧室_床头柜.png")
+			var img: Image = load("res://assets/sprites/卧室_床头柜.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Toilet: standalone PNG
 		elif fname == "toilet":
-			var img: Image = Image.load_from_file("res://assets/sprites/厕所_马桶.png")
+			var img: Image = load("res://assets/sprites/厕所_马桶.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Sink: standalone PNG
 		elif fname == "sink":
-			var img: Image = Image.load_from_file("res://assets/sprites/厕所_水槽.png")
+			var img: Image = load("res://assets/sprites/厕所_水槽.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 		# Bathtub: standalone PNG
 		elif fname == "bathtub":
-			var img: Image = Image.load_from_file("res://assets/sprites/厕所_浴缸.png")
+			var img: Image = load("res://assets/sprites/厕所_浴缸.png").get_image()
 			if img != null:
 				tex = ImageTexture.create_from_image(img)
 
@@ -926,7 +926,7 @@ func _build_hotspots() -> void:
 						sprite.scale = Vector2(0.6, 0.6)
 						child.add_child(sprite)
 			elif hotspot_id == "family_photo":
-				var img: Image = Image.load_from_file("res://assets/sprites/全家福.png")
+				var img: Image = load("res://assets/sprites/全家福.png").get_image()
 				if img != null:
 					var tex: ImageTexture = ImageTexture.create_from_image(img)
 					var sprite := Sprite2D.new()
@@ -1012,7 +1012,7 @@ func _create_hotspot(inter: Dictionary) -> void:
 				sprite.position = Vector2.ZERO
 				area.add_child(sprite)
 	if id == "family_photo":
-		var img: Image = Image.load_from_file("res://assets/sprites/全家福.png")
+		var img: Image = load("res://assets/sprites/全家福.png").get_image()
 		if img != null:
 			var tex: ImageTexture = ImageTexture.create_from_image(img)
 			var sprite := Sprite2D.new()
@@ -1023,7 +1023,7 @@ func _create_hotspot(inter: Dictionary) -> void:
 			sprite.position = Vector2.ZERO
 			area.add_child(sprite)
 	if id in ["family_photo_complete", "photo_crack_finale"]:
-		var img: Image = Image.load_from_file("res://assets/images/cg/family_photo_new.png")
+		var img: Image = load("res://assets/images/cg/family_photo_new.png").get_image()
 		if img != null:
 			var tex: ImageTexture = ImageTexture.create_from_image(img)
 			var sprite := Sprite2D.new()
@@ -1034,7 +1034,7 @@ func _create_hotspot(inter: Dictionary) -> void:
 			sprite.position = Vector2.ZERO
 			area.add_child(sprite)
 	if id == "calendar":
-		var img: Image = Image.load_from_file("res://assets/sprites/台历.png")
+		var img: Image = load("res://assets/sprites/台历.png").get_image()
 		if img != null:
 			var tex: ImageTexture = ImageTexture.create_from_image(img)
 			var sprite := Sprite2D.new()
@@ -1360,7 +1360,7 @@ func _on_pickable_body(body: Node2D, entered: bool, area: Area2D) -> void:
 
 func _on_spawn_anim(anim_name: String) -> void:
 	if anim_name == "drawer_open" and _tv_cabinet_sprite != null and not _drawer_open:
-		var img: Image = Image.load_from_file("res://assets/sprites/电视机柜拉开.png")
+		var img: Image = load("res://assets/sprites/电视机柜拉开.png").get_image()
 		if img != null:
 			_tv_cabinet_sprite.texture = ImageTexture.create_from_image(img)
 			_drawer_open = true
@@ -1371,7 +1371,7 @@ func _on_spawn_anim(anim_name: String) -> void:
 func _restore_drawer_state() -> void:
 	# 如果抽屉已被打开过，重新加载房间时恢复开启状态
 	if GameState.has_flag("drawer_opened") and _tv_cabinet_sprite != null and not _drawer_open:
-		var img: Image = Image.load_from_file("res://assets/sprites/电视机柜拉开.png")
+		var img: Image = load("res://assets/sprites/电视机柜拉开.png").get_image()
 		if img != null:
 			_tv_cabinet_sprite.texture = ImageTexture.create_from_image(img)
 			_drawer_open = true
@@ -1682,17 +1682,17 @@ func _on_dialogue_finished(dialogue_id: String) -> void:
 		_reveal_kitchen_door()
 	if dialogue_id == "ingredient_pork" and _fridge_sprite != null:
 		# 冰箱交互结束 → 恢复关闭状态纹理
-		var img: Image = Image.load_from_file("res://assets/sprites/冰箱.png")
+		var img: Image = load("res://assets/sprites/冰箱.png").get_image()
 		if img != null:
 			_fridge_sprite.texture = ImageTexture.create_from_image(img)
 	if dialogue_id == "ingredient_ginger_fridge" and _fridge_sprite != null:
 		# 冰箱上层交互结束 → 恢复关闭状态纹理
-		var img2: Image = Image.load_from_file("res://assets/sprites/冰箱.png")
+		var img2: Image = load("res://assets/sprites/冰箱.png").get_image()
 		if img2 != null:
 			_fridge_sprite.texture = ImageTexture.create_from_image(img2)
 	if dialogue_id == "ingredient_cabbage" and _basket_sprite != null:
 		# 白菜被拾取后 → 竹篮切换为空篮纹理
-		var img: Image = Image.load_from_file("res://assets/sprites/竹篮.png")
+		var img: Image = load("res://assets/sprites/竹篮.png").get_image()
 		if img != null:
 			_basket_sprite.texture = ImageTexture.create_from_image(img)
 	if dialogue_id == "dumpling_finale":
@@ -1783,12 +1783,12 @@ func _on_dialogue_started(dialogue_id: String) -> void:
 		_stop_phone_ring()
 	if dialogue_id == "ingredient_pork" and _fridge_sprite != null:
 		# 冰箱交互开始 → 切换到打开状态纹理
-		var img: Image = Image.load_from_file("res://assets/sprites/冰箱打开.png")
+		var img: Image = load("res://assets/sprites/冰箱打开.png").get_image()
 		if img != null:
 			_fridge_sprite.texture = ImageTexture.create_from_image(img)
 	if dialogue_id == "ingredient_ginger_fridge" and _fridge_sprite != null:
 		# 冰箱上层交互开始 → 切换到上层打开状态纹理
-		var img2: Image = Image.load_from_file("res://assets/sprites/冰箱上层打开.png")
+		var img2: Image = load("res://assets/sprites/冰箱上层打开.png").get_image()
 		if img2 != null:
 			_fridge_sprite.texture = ImageTexture.create_from_image(img2)
 	if dialogue_id == "bathroom_shower":
@@ -1929,7 +1929,7 @@ func _ensure_photo_sprite(area: Area2D) -> void:
 		return  # 已经是精灵，无需处理
 	if existing_visual != null:
 		existing_visual.queue_free()
-	var img: Image = Image.load_from_file("res://assets/images/cg/family_photo_new.png")
+	var img: Image = load("res://assets/images/cg/family_photo_new.png").get_image()
 	if img != null:
 		var tex: ImageTexture = ImageTexture.create_from_image(img)
 		var sprite := Sprite2D.new()
@@ -2028,7 +2028,7 @@ func _create_npc_hotspot(npc_id: String) -> void:
 	if id not in ["grandma", "grandma_collect", "grandma_dumpling", "grandma_finale"] and not has_collect:
 		# 完整全家福和裂缝结局：显示真实图片精灵
 		if id in ["family_photo_complete", "photo_crack_finale"]:
-			var img: Image = Image.load_from_file("res://assets/images/cg/family_photo_new.png")
+			var img: Image = load("res://assets/images/cg/family_photo_new.png").get_image()
 			if img != null:
 				var tex: ImageTexture = ImageTexture.create_from_image(img)
 				var sprite := Sprite2D.new()

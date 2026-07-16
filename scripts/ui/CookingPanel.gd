@@ -199,11 +199,8 @@ func close() -> void:
 			player.unlock_movement()
 
 
-func _load_texture(path: String) -> Texture2D:
-	var img := Image.load_from_file(path)
-	if img != null:
-		return ImageTexture.create_from_image(img)
-	return null
+	func _load_texture(path: String) -> Texture2D:
+		return load(path)
 
 
 func _make_dumpling_sprite() -> TextureRect:

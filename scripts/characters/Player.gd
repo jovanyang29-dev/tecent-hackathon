@@ -20,9 +20,9 @@ func _ready() -> void:
 	_sprite = $Sprite2D as Sprite2D
 	if _sprite != null:
 		_sprite.scale = Vector2(2.0 / 3.0 * 1.2, 2.0 / 3.0 * 1.2)  # 2/3 * 1.2 = 0.8
-		var char_img := Image.load_from_file("res://assets/sprites/角色.png")
-		if char_img != null:
-			_sprite.texture = ImageTexture.create_from_image(char_img)
+		var char_tex := load("res://assets/sprites/角色.png")
+		if char_tex != null:
+			_sprite.texture = char_tex
 		elif _sprite.texture == null:
 			_sprite.texture = _make_circle_texture(20, Color(0.9, 0.8, 0.5), Color(0.3, 0.2, 0.1))
 		_idle_tex = _sprite.texture
@@ -33,9 +33,9 @@ func _ready() -> void:
 			var fname := "res://assets/sprites/walk_%03d.png" % i
 			if not FileAccess.file_exists(fname):
 				break
-			var walk_img := Image.load_from_file(fname)
-			if walk_img != null:
-				_walk_tex.append(ImageTexture.create_from_image(walk_img))
+			var walk_tex := load(fname)
+			if walk_tex != null:
+				_walk_tex.append(walk_tex)
 			i += 1
 
 		_walk_timer = Timer.new()
@@ -269,9 +269,9 @@ func _on_inventory_changed(_items: Array[String]) -> void:
 	if _held_sprite == null:
 		return
 	if GameState.has_item("remote_control"):
-		var img := Image.load_from_file("res://assets/sprites/遥控器.png")
+		var tex := load("res://assets/sprites/遥控器.png")
 		if img != null:
-			_held_sprite.texture = ImageTexture.create_from_image(img)
+			_held_sprite.texture = tex
 			_held_sprite.visible = true
 	else:
 		_held_sprite.visible = false

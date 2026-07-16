@@ -13,7 +13,7 @@ func load_sheet(path: String, tile_size: int = 16) -> bool:
 	if not FileAccess.file_exists(path):
 		push_error("SpriteSheet: file not found: %s" % path)
 		return false
-	_image = Image.load_from_file(path)
+	var tex := load(path); if tex == null: return false; _image = tex.get_image()
 	if _image == null:
 		return false
 	_texture = ImageTexture.create_from_image(_image)
